@@ -1,0 +1,4502 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>STL</name>
+			<longname>Stellaris — Set</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-09-23</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Relic of Culture</name>
+			<text>Flash
+When this artifact enters or leaves the battlefield, exile target card from a graveyard.
+{2}, Sacrifice this artifact: Draw a card.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/0.png" num="25">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Clue</type>
+				<maintype>Artifact</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Shock Trooper</name>
+			<text>When this creature enters, you get {E}{E} (two energy counters).
+Pay {E}{E}: Put a +1/+1 counter on target creature. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/1.png" num="29">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tiyanki Flight</name>
+			<text>Flying
+When this creature dies, put a +1/+1 counter on target creature.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/2.png" num="34">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien Jellyfish</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blorg Tourists</name>
+			<text>Lifelink
+When this creature enters, you get {E} (an energy counter), then you may pay any number of {E}. When you do, put a +1/+1 counter on up to that many target creatures you control.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/3.png" num="6">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Resort World Tourguide</name>
+			<text>Flash
+When this creature enters, choose one —
+• You get {E}{E} (two energy counters). 
+• Tap or untap target creature or artifact.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/4.png" num="26">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Riftslugs</name>
+			<text>When this creature enters, draw a card. You gain 1 life and get {E}. (an energy counter)</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/5.png" num="28">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Slug</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Revelation of Power</name>
+			<text>Target creature gets +2/+2 until end of turn. If it has a counter on it, it also gains flying and lifelink until end of turn.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/6.png" num="27">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Augmented Biker</name>
+			<text>This creature crews Vehicles and stations permanents using its toughness rather than its power.
+Whenever this creature becomes tapped during your turn, untap it. This ability triggers only once each turn.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/7.png" num="5">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Fox Pilot</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Disaster Rescue Team</name>
+			<text>Flash
+Vigilance
+When this creature enters, choose target permanent card in your graveyard that was put there from anywhere this turn. Return it to your hand.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/8.png" num="13">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Octopus Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Capture Sphere</name>
+			<text>When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield. You get {E}{E} (two energy counters).</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/9.png" num="8">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Assisted Archaeologist</name>
+			<text>When this creature enters, create a 2/2 colorless Robot artifact creature token.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/10.png" num="3">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Orc Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Agent&apos;s Dataslate</name>
+			<text>When this Equipment enters, you get {E}{E} (two energy counters).
+When this Equipment enters, attach it to target creature you control.
+Equipped creature gets +1/+2.
+Equip—Pay {E}{E}.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/11.png" num="1">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Creed Preacher</name>
+			<text>Vigilance
+When this creature dies, create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/12.png" num="12">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Arrtifact Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Disastrous Strike</name>
+			<text>This spell costs {3} less to cast if it targets a tapped permanent.
+Destroy target creature or artifact.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/13.png" num="14">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Relic Cataloguer</name>
+			<text>Tap two untapped artifacts or creatures you control: Put a +1/+1 counter on this creature. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/14.png" num="23">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Charge Forward</name>
+			<text>Creatures you control get +1/+1 until end of turn.
+Draw a card.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/15.png" num="10">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Squadron Commander</name>
+			<text>Whenever you attack, put a +1/+1 counter on up to one target creature.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/16.png" num="31">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Raise Shields</name>
+			<text>Target permanent gains hexproof and indestructible until end of turn. Scry 1.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/17.png" num="22">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hunter-Killer Squad</name>
+			<text>Create three 2/2 colorless Robot artifact creature tokens.
+Basic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/18.png" num="16">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Relic of Language</name>
+			<text>When this artifact enters, draw a card, then discard a card.
+{2}, Sacrifice this artifact: Draw a card.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/19.png" num="70">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Clue</type>
+				<maintype>Artifact</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Rift Shielding</name>
+			<text>Target creature gains hexproof until end of turn. Untap it. It can&apos;t be blocked this turn.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/20.png" num="72">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Digital Diplomats</name>
+			<text>Develop 3—{1}{U} (You may cast this spell for its develop cost. If you do, it enters tapped with three stun counters on it.)
+Whenever this creature enters or attacks, draw a card.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/21.png" num="50">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eye Drone</name>
+			<text>Flying
+When this creature enters or leaves the battlefield, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/22.png" num="54">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Machine Introspection</name>
+			<text>Untap up to one target creature or artifact.
+Draw a card.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/23.png" num="59">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Synthetic Citizen</name>
+			<text>{3}, {T}: Create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/24.png" num="76">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Propagandize</name>
+			<text>As an additional cost to cast this spell, pay {1} or {E}{E} (two energy counters).
+Draw two cards.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/25.png" num="67">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Urban Informants</name>
+			<text>Whenever this creature attacks, untap target creature or artifact.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/26.png" num="77">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fox Spy</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Engineered Specimen</name>
+			<text>Flying, vigilance
+Basic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/27.png" num="52">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien Jellyfish</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sapient Simulation</name>
+			<text>{T}: Add {U}. Spend this mana only to cast an artifact spell or activate an ability of an artifact source.
+{T}: You get {E} (an energy counter).</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/28.png" num="73">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Calculate</name>
+			<text>Look at the top X plus 1 cards of your library. Put one of them into your hand, any number of them into your graveyard, and the rest into the bottom of your library in a random order.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/29.png" num="46">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XU</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Place in Stasis</name>
+			<text>Put target creature on top of its owner&apos;s library. That player may shuffle.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/30.png" num="64">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Politicize</name>
+			<text>Tap target nonland permanent, put a stun counter on it, then double the amount of stun counters on it.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/31.png" num="65">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Prediction System</name>
+			<text>As an additional cost to cast this spell, pay {1} or {E}{E} (two energy counters).
+Counter target spell.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/32.png" num="66">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>UU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ancient Abandonment</name>
+			<text>Enchant creature or artifact
+When Ancient Abandonment enters, tap enchanted permanent.
+Enchanted permanent can&apos;t become untapped.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/33.png" num="40">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cadre of Agents</name>
+			<text>When this creature enters, create two 1/1 colorless Spy creature tokens with &quot;This creature can&apos;t block or be blocked.&quot;</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/34.png" num="45">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Spy</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mechanized Citizen</name>
+			<text>Artifact spells you cast cost {1} less to cast.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/35.png" num="60">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shroud Fears</name>
+			<text>Choose one —
+• Target creature has base power and toughness 4/4 until end of turn.
+• Target creature has base power and toughness 1/1 until end of turn.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/36.png" num="74">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Decryption Specialist</name>
+			<text>When this creature enters, you get {E}{E} (two energy counters).
+When this creature attacks, you may pay {E}{E}. If you do, draw a card.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/37.png" num="49">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lobster Spy</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Relic of Anatomy</name>
+			<text>When this artifact enters, return target creature card from your graveyard to your hand.
+{2}, Sacrifice this artifact: Draw a card.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/38.png" num="105">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Clue</type>
+				<maintype>Artifact</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Clone Trooper</name>
+			<text>When this creature enters, you get {E}{E} (two energy counters).
+Pay {E}{E}: This creature gets +1/+1 until end of turn.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/39.png" num="85">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Corporate Hedonism</name>
+			<text>You get {E}{E}, then you may spend any amount of {E}. When you do, you draw that many cards and lose that much life.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/40.png" num="87">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Emergency Augmentation</name>
+			<text>Until end of turn, target creature you control gains &quot;When this creature dies, return it to the battlefield tapped under its owner&apos;s control with a +1/+1 counter on it.&quot;</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/41.png" num="91">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Catastrophe Signaler</name>
+			<text>Flying
+When this creature enters, each opponent discards a card. You get {E} (an energy counter)</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/42.png" num="83">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Target Locked</name>
+			<text>Destroy target creature or Spacecraft.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/43.png" num="113">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Vicious Parasites</name>
+			<text>Flying, deathtouch, lifelink</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/44.png" num="115">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rogue Archaeologist</name>
+			<text>When this creature enters, return target creature or Spacecraft card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/45.png" num="107">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Flesh Peddling</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Draw two cards. You get {E}{E} (two energy counters).</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/46.png" num="94">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shroud Communion</name>
+			<text>Choose one —
+• Surveil 2, then draw a card.
+• Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/47.png" num="108">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Anomalous Nebula</name>
+			<text>Flying
+When this creature enters, you draw a card and lose 1 life.
+Basic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/48.png" num="79">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Disrupting Influence</name>
+			<text>Each opponent sacrifices a creature. If they can&apos;t, they discard a card.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/49.png" num="90">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Robotics Specialists</name>
+			<text>When this creature dies, create a 2/2 colorless Robot artifact creature token.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/50.png" num="106">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fox Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arena Brawlers</name>
+			<text>When this creature dies, create your choice of a Treasure or Clue token.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/51.png" num="80">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Octopus Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Synaptic Processor</name>
+			<text>Equipped creature gets +1/+1.
+{1}, Sacrifice equipped creature: Draw a card. Activate only as a sorcery.
+Equip {2}</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/52.png" num="112">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Masked Tracker</name>
+			<text>When this creature enters or dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/53.png" num="99">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Augment Smuggler</name>
+			<text>Deathtouch
+{2}, Sacrifice an artifact: Draw a card. Put a +1/+1 counter on up to one other target creature.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/54.png" num="81">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fish Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Marauder Duelist</name>
+			<text>Flash
+When this creature enters, target creature an opponent controls gets -2/-2 until end of turn.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/55.png" num="97">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Whale Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Corporate Administrator</name>
+			<text>Menace
+At the beginning of your upkeep, you may sacrifice a creature or artifact. If you do, draw a card.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/56.png" num="86">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fish Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Relic of Warfare</name>
+			<text>When this artifact enters, it deals 1 damage to any target.
+{2}, Sacrifice this artifact: Draw a card.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/57.png" num="145">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Clue</type>
+				<maintype>Artifact</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Zrosight</name>
+			<text>As an additional cost to cast this spell, discard a card or sacrifice an artifact.
+Draw two cards. You get {E}{E} (two energy counters).</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/58.png" num="156">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Military Archaeologists</name>
+			<text>When this creature enters, you may sacrifice an artifact. If you do, it deals 2 damage to any target.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/59.png" num="141">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fox Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Assault Army Officer</name>
+			<text>Other creatures you control have +1/+0.
+Basic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/60.png" num="121">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fleet Assault</name>
+			<text>Choose one —
+• Destroy target Spacecraft.
+• Fleet Assault deals 1 damage to any number of targets.
+• Fleet Assault deals 3 damage to any target.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/61.png" num="131">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sharp-class Corvette</name>
+			<text>When this Spacecraft enters, you may discard a card. When you do, draw a card.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
+[level 6+] Flying [4/4]</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/62.png" num="149">STL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Artifact — Spacecraft</type>
+				<maintype>Artifact</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Resilient Wildlife</name>
+			<text>Ward—Pay life equal to this creature&apos;s power.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/63.png" num="146">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Marauder Crew</name>
+			<text>When this creature enters or dies, create a 1/1 black and red Mercenary creature token.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/64.png" num="138">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast Pirate Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Investigation Drone</name>
+			<text>Flying, haste
+When Investigation Drone dies, create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/65.png" num="134">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Active Archaeology</name>
+			<text>Destroy up to one target artifact. Create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/66.png" num="118">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hostile Wildlife</name>
+			<text>When this creature enters, you get {E}{E} (two energy counters).
+Pay {E}{E}: This creature deals 1 damage to each opponent.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/67.png" num="133">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien Kraken</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ancient Structure</name>
+			<text>Develop 3—{1}{R} (You may cast this spell for its develop cost. If you do, it enters tapped with three stun counters on it.)
+{T}: Exile the top card of your library. You may play it this turn.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/68.png" num="119">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cunning Manuever</name>
+			<text>Target creature gets +3/+1 until end of turn.
+Create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/69.png" num="127">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Logistics Officer</name>
+			<text>When this creature enters, you may discard a card. If you do, you draw a card and get {E}{E} (two energy counters).</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/70.png" num="136">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Curious Synth</name>
+			<text>Haste
+{1}, {T}, Sacrifice an artifact or land: Create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/71.png" num="128">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scorching Thermophile</name>
+			<text>{T}: You get {E}. 
+{T}, Pay {E}: Add {R}{R}.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/72.png" num="147">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Venture the Ruins</name>
+			<text>Exile the top three cards of your library. Choose one of them. You may play it this turn.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/73.png" num="154">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Furious Envoy</name>
+			<text>When this creature enters, each opponent sacrifices an artifact. This creature deals 2 damage to each player who didn&apos;t sacrifice a nontoken artifact this way.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/74.png" num="132">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cutholoid</name>
+			<text>Develop 4—{R} (You may cast this spell for its develop cost. If you do, it enters tapped with four stun counters on it.)
+Haste, trample</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/75.png" num="129">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien Crab Octopus</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Relic of Botany</name>
+			<text>When this artifact enters, put a +1/+1 counter on up to one target creature.
+{2}, Sacrifice this artifact: Draw a card.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/76.png" num="181">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Clue</type>
+				<maintype>Artifact</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Return to Nature</name>
+			<text>Choose one —
+• Destroy target artifact.
+• Destroy target enchantment.
+• Exile target card from a graveyard.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/77.png" num="182">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Biotroop Prototype</name>
+			<text>Develop 3—{G} (You may cast this spell for its develop cost. If you do, it enters tapped with three stun counters on it.)
+Trample</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/78.png" num="165">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Xenobiology Specialist</name>
+			<text>{T}: Add one mana of any color. Spend this mana only to cast a creature spell or activate an ability of a creature.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/79.png" num="194">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prosperous Agriworlder</name>
+			<text>When this creature enters, put a +1/+1 counter on another target creature. You gain 1 life.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/80.png" num="178">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Assisted Regeneration</name>
+			<text>Put a +1/+1 counter on target permanent and untap it. It gains indestructible until end of turn.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/81.png" num="157">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Biomorphosis</name>
+			<text>Flash
+Enchant creature
+When this enchantment enters and at the beginning of your end step, untap enchanted creature.
+Enchanted creature has +1/+1.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/82.png" num="163">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sealed Xenomorph</name>
+			<text>When this artifact enters, draw a card.
+{3}{G}: This artifact becomes a 4/4 Alien Horror creature with haste and trample. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/83.png" num="185">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Titanic Lifeform</name>
+			<text>Reach
+This spell costs {X} less to cast, where X is the number of permanents you control with counters on them.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/84.png" num="188">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>5G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Roar of the Wurm</name>
+			<text>Create a 6/6 green Wurm creature token.
+Flashback {3}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/85.png" num="183">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>6G</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Monstrous Emergence</name>
+			<text>As an additional cost to cast this spell, choose a creature you control or reveal a creature card from your hand.
+Monstrous Emergence deals damage equal to the power of the creature you chose or the card you revealed to target creature.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/86.png" num="175">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bioconsumption</name>
+			<text>Put a +1/+1 counter on target creature you control. It fights another target creature. When it does, put a +1/+1 counter on target creature you control.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/87.png" num="160">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Explosive Growth</name>
+			<text>Kicker {5} (You may pay an additional {5} as you cast this spell.)
+Target creature gets +2/+2 until end of turn. If this spell was kicked, that creature gets +5/+5 until end of turn instead.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/88.png" num="168">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Twisted Weather</name>
+			<text>Choose one —
+• Twisted Weather deals 3 damage to target creature with flying. 
+• Search your library for a basic land card, reveal it, put it in your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/89.png" num="190">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Biocolony</name>
+			<text>When this creature enters, search your library for a basic land card, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/90.png" num="159">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Natural Wonder</name>
+			<text>Look at the top four cards of your library. You may reveal a creature or land card from among them and put it into your hand. Put the rest in the bottom of your library in a random order.
+Flashback {4}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/91.png" num="176">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rampant Growth</name>
+			<text>Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/92.png" num="180">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Landblighter</name>
+			<text>When this creature enters, destroy target artifact, enchantment, or land.
+Basic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/93.png" num="173">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Terrain Trawler</name>
+			<text>Develop 2—{G} (You may cast this spell for its develop cost. If you do, it enters tapped with two stun counters on it.)
+{2}, Sacrifice this Vehicle: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+Crew 2</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/94.png" num="187">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle Lander</type>
+				<maintype>Artifact</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Capture Probe</name>
+			<text>When this Spacecraft enters, exile another target creature or artifact until this Spacecraft leaves the battlefield.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
+[level 5+] Flying [3/3]</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/95.png" num="7">STL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Artifact — Spacecraft</type>
+				<maintype>Artifact</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Investment Analyst</name>
+			<text>Lifelink
+When this creature enters, if an opponent controls more lands than you, you may search your library for a Plains card, put it in your hand, then shuffle. If you have no {E}, you get {E}{E}{E} (three energy counters).</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/96.png" num="19">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sloth Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Relic Museum</name>
+			<text>This artifact enters with a collection counter on it.
+Whenever another artifact you control is put into a graveyard from the battlefield, put a collection counter on this artifact.
+{2}, {T}, Remove a collection counter from this artifact: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/97.png" num="24">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cosmos Harnesser</name>
+			<text>When this creature enters, you get {E}{E} (two energy counters).
+Pay {E}{E}: Target creature gains indestructible until your next turn. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/98.png" num="11">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fox Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Go Derelict</name>
+			<text>Exile target artifact, enchantment, or attacking creature.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/99.png" num="15">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Arkship Commanders</name>
+			<text>When this creature enters, create a 1/1 green Citizen creature token.
+{3}{W}{W}, Exile this creature: Search your library for a Spacecraft card, reveal it, put it in your hand, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/100.png" num="2">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>War Councilors</name>
+			<text>First strike
+Other creatures you control get +1/+1.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/101.png" num="39">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Insect Octopus Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hydroponics Unit</name>
+			<text>{2}, {T}: Create a Food token. (They&apos;re artifacts with &quot;{2}, {T}, Sacrifice this token: You gain 3 life.&quot;)
+Whenever you gain life, put a +1/+1 counter on up to one target creature.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/102.png" num="17">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Incessant Protesters</name>
+			<text>Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)
+When this creature enters, return up to one target permanent you control to its owner&apos;s hand. If this creature was kicked, instead return target creature to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/103.png" num="18">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Octopus Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Surprise!</name>
+			<text>You gain 2 life. You get {E}{E} (two energy counters).
+Draw a card.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/104.png" num="32">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Virtualize</name>
+			<text>Exile target creature. For as long as it remains exiled, its owner may cast it by paying {2} in addition to its other costs.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/105.png" num="38">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Neutralization Probe</name>
+			<text>When this Spacecraft enters, you may return target creature or artifact to its owner&apos;s hand.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
+[level 7+] Flying [3/2]</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/106.png" num="62">STL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Artifact — Spacecraft</type>
+				<maintype>Artifact</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Anomalous Crystalloid</name>
+			<text>Flying
+When this creature dies, create a number of Clue tokens equal to its power. (They&apos;re artifacts with &quot;{2}, Sacrifice this token: Draw a card.&quot;)</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/107.png" num="41">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Conclave of the Relic</name>
+			<text>Vigilance
+When this creature enters, put three +1/+1 counters on up to one target noncreature artifact. That artifact becomes a 0/0 Construct artifact creature with flying.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/108.png" num="48">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cetana&apos;s Tempest</name>
+			<text>Kicker {1}{B} (You may pay an additional {1}{B} as you cast this spell.)
+Return target creature to its owner&apos;s hand. If this spell was kicked, instead shuffle it into its owner&apos;s library.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/109.png" num="47">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Pathway Mentor</name>
+			<text>Artifacts and creatures you control enter untapped.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/110.png" num="63">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dog Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Repair Bay</name>
+			<text>When Repair Bay enters the battlefield, you get {E}{E}{E} (three energy counters).
+{T}, Pay {E}{E}{E}: Return target artifact card from your graveyard to your hand.
+{T}: Add {C}. Spend this mana only to cast an artifact spell or activate an ability of an artifact source.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/111.png" num="71">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Driven Assimilator</name>
+			<text>Flying
+When this creature enters, gain control of target creature. It becomes an artifact in addition to its other types.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/112.png" num="51">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot</type>
+				<maintype>Creature</maintype>
+				<manacost>5UU</manacost>
+				<cmc>7</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lost in the Dark</name>
+			<text>Counter target spell. Return up to one target nonland permanent to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/113.png" num="58">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Automated Sentry</name>
+			<text>Flying
+This creature gets +2/+2 as long as you control three or more artifacts.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/114.png" num="44">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Enhanced Monitor</name>
+			<text>Whenever you cast an artifact spell, you may pay {2}. If you do, create a 2/2 colorless Robot artifact creature token.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/115.png" num="53">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Troll Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Future Flight</name>
+			<text>Enchant creature
+When this Aura enters, draw two cards.
+Enchanted creature gets +2/+0 and has flying.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/116.png" num="56">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Monitoring Probe</name>
+			<text>When this Spacecraft enters, look at target opponent&apos;s hand. You may exile a nonland card from it until this Spacecraft leaves the battlefield.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
+[level 8+] Flying [3/1]</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/117.png" num="101">STL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Artifact — Spacecraft</type>
+				<maintype>Artifact</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Toxoid Commander</name>
+			<text>When this creature enters, you may sacrifice another creature or artifact. If you do, draw two cards.
+Whenever this creature attacks, each opponent loses 2 life.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/118.png" num="114">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dwarf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bioweapon Bombardment</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature or pay {E}{E} (two energy counters).
+Exile target creature.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/119.png" num="82">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Entropic Recursion</name>
+			<text>Choose up to one target creature card in a graveyard. You get {E}{E}, then you may pay an amount of {E} equal to that card&apos;s mana value. If you do, return it from the graveyard to the battlefield under your control.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/120.png" num="93">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Warpling</name>
+			<text>Flash
+When this creature enters, sacrifice a creature or artifact.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/121.png" num="116">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cryogen Awakening</name>
+			<text>Return target creature from your graveyard to the battlefield under your control with two +1/+1 counters on it.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/122.png" num="88">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Marketplace Tourists</name>
+			<text>Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)
+Lifelink
+When this creature enters, if it was kicked, create two Treasure tokens.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/123.png" num="98">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Long Gone</name>
+			<text>Destroy target creature. Remove up to three counters from up to one target creature or opponent.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/124.png" num="96">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Prophecy of Power</name>
+			<text>You get {E}{E}{E}{E} (four energy counters). Then you may spend any amount of {E}. If you do, look at that many cards from the top of your library. Put one of them into your hand and the rest into your graveyard.
+Flashback {4}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/125.png" num="102">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cetana&apos;s Faithful</name>
+			<text>Lifelink
+When this creature dies, if it wasn&apos;t an artifact, create a token that&apos;s a copy of it, except it&apos;s an artifact. (It&apos;s not a creature.)
+{3}{B}, Pay 1 life: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/126.png" num="84">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Squid Beast Insect Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Radiation Pulse</name>
+			<text>Remove up to three counters from target permanent or opponent.
+Draw a card.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/127.png" num="104">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Scrapship Probe</name>
+			<text>When this Spacecraft enters, you may discard a card or sacrifice another artifact. If you do, draw two cards.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
+[level 8+] Flying, haste [3/1]</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/128.png" num="148">STL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Artifact — Spacecraft</type>
+				<maintype>Artifact</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Marauder Captain</name>
+			<text>When this creature enters, you get {E}{E} (two energy counters). 
+At the beginning of combat in your turn, you may pay {E}. If you do, create a 1/1 black and red Mercenary creature token. It gains haste.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/129.png" num="137">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dog Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>RR</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Deep Core Mining</name>
+			<text>As an additional cost to cast this spell, sacrifice a land or discard a land card.
+Draw two cards. You may put a land card from your hand into the battlefield.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/130.png" num="130">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Space Amoeba</name>
+			<text>Haste
+When this creature dies, you get an amount of {E} equal to its power.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/131.png" num="151">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Germ</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Planetary Bombarder</name>
+			<text>When Planetary Bombarder enters, it deals 3 damage to any target.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
+[level 8+] Flying, trample [4/4]</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/132.png" num="143">STL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Artifact — Spacecraft</type>
+				<maintype>Artifact</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Militarist Impetus</name>
+			<text>Exile the top X cards of your library. You may play those cards until your next end step.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/133.png" num="140">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XR</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Colossal Feud</name>
+			<text>Choose two target creatures. They fight each other. (Each deals damage equal to its power to the other.)</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/134.png" num="125">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mechanized Marauder</name>
+			<text>Menace
+Whenever this creature attacks, exile the top card of your library. You may play it this turn.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/135.png" num="139">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crystalloid Colony</name>
+			<text>Kicker {1}{G} (You may pay an additional {1}{G} as you cast this spell.)
+When this creature enters, if it was kicked, search your library for a basic land card, put it onto the battlefield, then shuffle.
+Landfall — Whenever a land you control enters, this creature deals 1 damage to each opponent.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/136.png" num="126">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bridgelinked Commander</name>
+			<text>First strike
+When this creature enters, put three charge counters on up to one target artifact.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/137.png" num="124">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Orc Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Psionic Conclave</name>
+			<text>Prowess
+{R}, Sacrifice this creature: It deals damage equal to its power to target creature.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/138.png" num="144">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lifeseeding Probe</name>
+			<text>When Lifeseeding Probe enters, search your library for a basic land card, put it in the battlefield, then shuffle.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
+[level 8+] Flying [3/3]</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/139.png" num="174">STL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Artifact — Spacecraft</type>
+				<maintype>Artifact</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Xenocompatibility</name>
+			<text>Flash
+Creatures you control get +2/+2 and have all creature types among creatures you control.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/140.png" num="195">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Baol Specimen</name>
+			<text>Defender
+When this creature enters or dies, search your library for a basic Forest card, put it in the battlefield tapped, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/141.png" num="158">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Upon Ancient Ground</name>
+			<text>Mill three cards. You may return a permanent card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/142.png" num="191">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Prosperous Unification</name>
+			<text>Put a +1/+1 counter on each creature you control. You gain 3 life.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/143.png" num="179">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bioprobes</name>
+			<text>Develop 3—{1}{G} (You may cast this spell for its develop cost. If you do, it enters tapped with three stun counters on it.)
+Whenever you attack, untap target permanent.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/144.png" num="164">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Biological Archive</name>
+			<text>When this artifact enters and whenever a creature enters the battlefield under your control, put a +1/+1 counter on this artifact.
+{T}: Move a +1/+1 counter from this artifact to target creature you control. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/145.png" num="161">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Toxoid Trader</name>
+			<text>Kicker {1}{W} (You may pay an additional {1}{W} as you cast this spell.)
+When this creature enters, put a +1/+1 counter on target creature you control. If this creature was kicked, instead put two +1/+1 counters on that creature. When you do, you may have it fight another target creature. (Each deals damage equal to its power to the other.)</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/146.png" num="189">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ruins Trawler</name>
+			<text>Vigilance
+{T}, Remove a counter from a permanent you control: Add one mana of any color.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/147.png" num="184">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Herd Marshaller</name>
+			<text>When this creature attacks, if it has a +1/+1 counter on it, remove a +1/+1 counter from it and create a 3/3 green Beast creature token. Otherwise, put a +1/+1 counter on it.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/148.png" num="170">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Idyll Guardian</name>
+			<text>Develop 3—{2}{G} (You may cast this spell for its develop cost. If you do, it enters tapped with three stun counters on it.)
+When this creature enters, create a 3/3 green Beast creature token.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/149.png" num="172">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Synthetic Ascension</name>
+			<text>Whenever a nontoken artifact you control enters, put a quest counter on this enchantment and surveil 1.
+At the beginning of your first main phase, if this enchantment has six or more quest counters on it, target creature you control becomes an artifact in addition to its other types. Put a +1/+1 counter and a hexproof counter on it.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/150.png" num="33">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Planetary Seal</name>
+			<text>Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
+[level 2+] Each opponent can&apos;t activate abilities of artifacts.
+[level 10+] Each opponent can&apos;t activate abilities that aren&apos;t mana abilities.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/151.png" num="21">STL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Artifact — Spacecraft</type>
+				<maintype>Artifact</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>VIR, Structural Engine</name>
+			<text>Flying
+VIR enters with a +1/+1 counter on it.
+When VIR leaves the battlefield, put a number of +1/+1 counters equal to its power on up to one target creature and that many charge counters on up to one target artifact.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/152.png" num="37">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Solar Flare</name>
+			<text>Exile target nonland permanent. Its controller creates a Junk token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Exile the top card of your library. You may play that card this turn. Activate only as a sorcery.&quot;)</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/153.png" num="30">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cetana&apos;s Command</name>
+			<text>Choose two —
+• Destroy all nonartifact creatures.
+• Destroy all noncreature artifacts.
+• Return an artifact card from your graveyard to the battlefield.
+• Return a creature card from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/154.png" num="9">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Khan&apos;s Throne</name>
+			<text>As long as it&apos;s your turn, creatures you control get +1/+1 and have first strike.
+At the beginning of your end step, draw a card.
+Whenever a creature deals combat damage to you, its controller gains control of The Khan&apos;s Throne.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/155.png" num="20">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Astral Wanderer</name>
+			<text>This creature has protection from each of its colors. (It can&apos;t be blocked, targeted, dealt damage, enchanted, or equipped by anything of its colors.)
+Sacrifice an artifact: This creature becomes the color of your choice until end of turn.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/156.png" num="4">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien Jellyfish</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Quantum Catapult</name>
+			<text>When this Spacecraft enters, exile target creature you control. Return it to the battlefield under its owner&apos;s control at the beginning of the next end step.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
+[level 5+] Whenever you attack, exile target creature you control. Return it to the battlefield tapped and attacking after the declare blockers step.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/157.png" num="68">STL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Artifact — Spacecraft</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Multi-Dimensional Analysis</name>
+			<text>Choose target permanent. Draw a card, then draw a card for each supertype and card type it has.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/158.png" num="61">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Foreign Asset</name>
+			<text>You may have this creature enter the battlefield as a copy of any creature an opponent controls, except it&apos;s Spy in addition to its other types and has &quot;This creature can&apos;t block or be blocked.&quot;</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/159.png" num="55">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien Spy</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hivemind Ascension</name>
+			<text>Whenever you draw your second card each turn, put a quest counter on this enchantment. Draw a card, then discard a card.
+At the beginning of your first main phase, if this enchantment has five or more quest counters on it, target opponent chooses a nonland, nontoken permanent they control. Gain control of that permanent.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/160.png" num="57">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Augmented One</name>
+			<text>As an additional cost to cast this spell, you may pay any amount of {E}. This spell costs {1} less to cast for each {E} paid this way.
+When this creature enters, draw X cards, then put X +1/+1 counters on this creature.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/161.png" num="43">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>XUUU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>VIR, Research Engine</name>
+			<text>Develop 1—{U} (You may cast this spell for its develop cost. If you do, it enters tapped with a stun counters on it.)
+Flying
+When VIR enters, draw a card.
+You may cast VIR from your graveyard for its develop cost if it wasn&apos;t put into your graveyard this turn.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/162.png" num="78">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Augmented Engineer</name>
+			<text>Vigilance
+At the beginning of your end step, you may sacrifice another nontoken artifact. If you do, put a +1/+1 counter on this creature and create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/163.png" num="42">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Lizard Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Deepspace Citadel</name>
+			<text>Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
+[level 2+] {T}: Exile target card from an opponent&apos;s graveyard.
+[level 12+] You may cast noncreature spells from among cards exiled with this artifact, and you may spend mana as though it were mana of any color to do so.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/164.png" num="89">STL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Artifact — Spacecraft</type>
+				<maintype>Artifact</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Psionic Ascension</name>
+			<text>Whenever one or more creatures die for the first time each turn, put a quest counter on this enchantment, then surveil 1.
+At the beginning of your first main phase, if this enchantment has six or more quest counters on it, return target creature card in a graveyard to the battlefield under your control.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/165.png" num="103">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Zroni Precursor</name>
+			<text>{B}: This creature becomes an Alien Monk with base power and toughness 2/3.
+{1}{B}{B}: If this creature is a Monk, it becomes an Alien Warlock with shadow and base power and toughness 4/1. (This creature can block or be blocked by only creatures with shadow.)
+{4}{B}{B}{B}: If this creature is a Warlock, exile all creatures.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/166.png" num="117">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hunted Specimen</name>
+			<text>Menace
+When this creature enters, target opponent creates a 1/1 blue Scientist creature token with &quot;{T}: Tap target Fish.&quot;</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/167.png" num="95">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien Fish</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shroud&apos;s Bargain</name>
+			<text>Draw three cards. When you do, choose one—
+• Sacrifice three permanents.
+• You lose 6 life.
+• Exile two target creatures you control.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/168.png" num="109">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Megamall</name>
+			<text>{T}, Discard a card: You gain 3 life.
+{T}, Pay 3 life: You get {E}{E}{E}.
+{T}, Pay {E}{E}{E}: Create a 2/2 colorless Robot artifact creature token.
+{T}, Sacrifice a creature: Draw a card.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/169.png" num="100">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Stellar Devourer</name>
+			<text>When this creature enters, you may remove any number of counters from target permanent or opponent. If you do, put that many +1/+1 counters on this creature.
+When this creature dies, each creature gets -X/-X until end of turn, where X was this creature&apos;s power.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/170.png" num="111">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arc Furnace</name>
+			<text>Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
+[level 4+] Sacrifice a land: Draw a card. You gain {E} (one energy counter).
+[level 10+] Pay {E}: Exile the top card of your library. You may play it this turn.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/171.png" num="120">STL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Artifact — Spacecraft</type>
+				<maintype>Artifact</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Thermal Ascension</name>
+			<text>Whenever a source you control deals noncombat damage to one or more creatures, put a quest counter on this enchantment. You get {E}. (an energy counter).
+At the beginning of your first main phase, if this enchantment has five or more quest counters on it, pay any amount of {E}, then exile that many cards from the top of your library. You may play them this turn.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/172.png" num="152">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Pirate Galleon</name>
+			<text>When this Spacecraft enters, gain control of target creature until end of turn. Untap it. It gains haste.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
+[level 7+] Flying, haste
+{B}, Sacrifice another creature or artifact: Put two +1/+1 counters on this Spacecraft. [3/3]</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/173.png" num="142">STL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Artifact — Spacecraft</type>
+				<maintype>Artifact</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bioengineered Pup</name>
+			<text>Trample
+Whenever this creature enters or deals combat damage to a player, you get {E} (an energy counter).
+Pay {E}{E}{E}: Put two +1/+1 counters on this creature. It gains haste until end of turn.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/174.png" num="122">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Biogenetic Behemoth</name>
+			<text>Develop 5—{R}{R} (You may cast this spell for its develop cost. If you do, it enters tapped with five stun counters on it.)
+Flying, trample, haste
+{R}: This creature gets +1/+0 until end of turn. You may remove a counter from it.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/175.png" num="123">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>5RR</manacost>
+				<cmc>7</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>8/8</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Twisted Moon</name>
+			<text>When Twisted Moon enters, draw a card.
+Nonbasic lands lose all types and abilities and have &quot;{T}, Sacrifice this land: Search your library for a basic land card, put it into the battlefield tapped, then shuffle.&quot;</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/176.png" num="153">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>VIR, Expansion Engine</name>
+			<text>Flying
+Landfall — Whenever a land you control enters, exile the top card of your library. You may play that card until your next end step.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/177.png" num="155">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Biological Ascension</name>
+			<text>Whenever a non-Spirit, nonartifact, nontoken creature you control enters, put a quest counter on this enchantment for each creature type it had. 
+At the beginning of your first main phase, if this enchantment has twenty or more quest counters on it, distribute six +1/+1 counters among any number of target creatures.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/178.png" num="162">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Colony Ship</name>
+			<text>When this Spacecraft enters, create a 1/1 green Citizen creature token.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
+[level 10+] Sacrifice this artifact: Search your library for three basic or Planet land cards, put them in the battlefield, then shuffle.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/179.png" num="166">STL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Artifact — Spacecraft</type>
+				<maintype>Artifact</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Voidworm Larva</name>
+			<text>Whenever this creature deals combat damage, put that many +1/+1 counters on it. (It must survive to get the counters.)</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/180.png" num="192">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien Wurm</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Evolving Lineage</name>
+			<text>At the beginning of your end step, you may move a +1/+1 counter from a creature you control to this enchantment.
+Each other creature you control enters with a number of additional +1/+1 counters on it equal to the amount of counters on this enchantment and as a Mutant in addition to its other types.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/181.png" num="167">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>First Contact Protocol</name>
+			<text>Search your library for up to two basic land cards, put them onto the battlefield, then shuffle. Each opponent may search their library for that many basic land cards, put them onto the battlefield, then shuffle. 
+Draw a card.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/182.png" num="169">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sights Unseen</name>
+			<text>Reveal cards from the top of your library until you reveal X permanent cards. Put these cards into your hand and the rest in the bottom of your library in a random order.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/183.png" num="186">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XG</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hyperlane Charter</name>
+			<text>When this creature enters, you may create a Map token. (It&apos;s an artifact with &quot;{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.&quot;)
+Maps you control have &quot;{1}, {T}: Target creature you control explores. Activate only as a sorcery.&quot;</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/184.png" num="171">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Trophies of Glory</name>
+			<text>Whenever equipped creature deals combat damage, put two +1/+1 counters on this artifact.
+At the beginning of combat on your turn, put X +1/+1 counters on equipped creature, where X is the number of +1/+1 counters on this artifact.
+Equip {1}</text>
+			<set rarity="mythic" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/185.png" num="35">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Utter Annihilation</name>
+			<text>Each player chooses six lands they control. Exile all other permanents.</text>
+			<set rarity="mythic" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/186.png" num="36">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Synaptic Lathe</name>
+			<text>Develop 3—{1}{U} (You may cast this spell for its develop cost. If you do, it enters tapped with three stun counters on it.)
+{T}, Sacrifice a creature: Create a token that&apos;s a copy of this artifact. 
+{T}: Draw a card.</text>
+			<set rarity="mythic" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/187.png" num="75">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Readied L-Gate</name>
+			<text>At the beginning of your end step, draw a card, then discard a card.
+{2}{U}: Create a token that&apos;s a copy of this artifact. Then if you control seven artifacts named Readied L-Gate, each nontoken artifact you control becomes a 0/0 artifact creature. Put six +1/+1 counters on each artifact that became a creature this way.</text>
+			<set rarity="mythic" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/188.png" num="69">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The End of the Cycle</name>
+			<text>Shroud
+Vanishing 5
+At the beginning of your end step, draw a card, create a Treasure token, put a +1/+1 counter on up to one target creature and you gain 3 life.
+When The End of the Cycle leaves the battlefield, you lose the game.</text>
+			<set rarity="mythic" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/189.png" num="92">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>BBB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Stellar Collapse</name>
+			<text>As an additional cost to cast this spell, pay {3} or half your life total, rounded up.
+Destroy all creatures.</text>
+			<set rarity="mythic" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/190.png" num="110">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>BB</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shroud Breacher</name>
+			<text>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
+At the beginning of your end step, return this artifact to its owner&apos;s hand.</text>
+			<set rarity="mythic" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/191.png" num="150">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>X3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Leviathan&apos;s Arrival</name>
+			<text>You get {E}{E}{E}{E}{E}{E} (six energy counters), then you may pay X {E}. If you do, you may put a creature card with mana value X from your hand onto the battlefield. That creature gains haste. Return that creature to your hand at the beginning of the next end step.</text>
+			<set rarity="mythic" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/192.png" num="135">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Perfected Vatsoldier</name>
+			<text>Develop 4—{G} (You may cast this spell for its develop cost. If you do, it enters tapped with four stun counters on it.)
+At the beginning of combat on your turn, choose a kind of counter at random that this creature doesn&apos;t have on it from among vigilance, haste, deathtouch, hexproof, reach, trample, and indestructible. Put a counter of that kind on this creature.</text>
+			<set rarity="mythic" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/193.png" num="177">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Voidworm Troika</name>
+			<text>This creature enters with nine +1/+1 counters on it.
+Whenever this creature is dealt damage or dies, create a 6/6 green Wurm creature token.</text>
+			<set rarity="mythic" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/194.png" num="193">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien Wurm</type>
+				<maintype>Creature</maintype>
+				<manacost>3GGG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cybernetic Creeds</name>
+			<text>When this creature enters, create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)
+Artifacts you control have &quot;{T}: Target creature gets +1/+0 until end of turn. Activate only as a sorcery.&quot;</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/195.png" num="201">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Deputy Coordinator</name>
+			<text>When this creature enters or dies, create a 1/1 colorless Spy creature token with &quot;This creature can&apos;t block or be blocked.&quot;
+{2}, Sacrifice a Spy: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/196.png" num="202">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Overtuned</name>
+			<text>Haste, trample
+This creature attacks each turn if able.
+When this creature dies, you lose 2 life and draw a card.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/197.png" num="210">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>4/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Here Be Dragons</name>
+			<text>Exile cards from the top of your library until you exile a creature card with mana value 7 or less. You may cast it without paying its mana cost. If it was a card with {X} in its mana cost, you may have the value of X become 5. Put each other card exiled this way into the bottom of its owner&apos;s library in a random order.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/198.png" num="203">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cadre of Diplomats</name>
+			<text>Vigilance
+When this creature enters, put a +1/+1 counter on each other creature you control.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/199.png" num="199">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Fish Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2GW</manacost>
+				<cmc>4</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Necromancer Cadre</name>
+			<text>When this creature enters, you get {E}{E} (two energy counters).
+Pay {E}{E}: Return target creature or artifact card with mana value 2 or less from your graveyard to the battlefield with a finality counter on it. Activate only as a sorcery. (If a creature or artifact with a finality counter on it would die, exile it instead.)</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/200.png" num="208">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>3WB</manacost>
+				<cmc>5</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Psionic Troopers</name>
+			<text>When this creature enters and at the beginning of your upkeep, you get {E} (an energy counter.)
+Pay {E}{E}: This creature deals 1 damage to any target. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/201.png" num="211">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scrapyard Venture</name>
+			<text>Choose one or more. Return those cards from your graveyard to your hand.
+• Target artifact card.
+• Target creature card.
+• Target artifact creature card.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/202.png" num="213">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Twinned Virtualist</name>
+			<text>When this creature enters, if it isn&apos;t a token, create a token that&apos;s a copy of it, except it&apos;s an artifact in addition to its other types.
+This creature can&apos;t attack or block alone.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/203.png" num="216">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Giraffe Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bioprobe Troop Carrier</name>
+			<text>Develop 4—{G}{U} (You may cast this spell for its develop cost. If you do, it enters tapped with four stun counters on it.)
+Flying, vigilance
+{4}: Create a 2/2 colorless Robot artifact creature token.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/204.png" num="197">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>4GU</manacost>
+				<cmc>6</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Machine Decree</name>
+			<text>Choose one or both —
+• Return target artifact card from your graveyard to your hand.
+• Return target artifact you control to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/205.png" num="221">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W/U</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Imperial Machinations</name>
+			<text>Create a 1/1 colorless Spy creature token with &quot;This creature can&apos;t block or be blocked.&quot;
+Draw a card.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/206.png" num="220">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U/B</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Price of War</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature or discard a card.
+Price of War deals 3 damage to any target.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/207.png" num="224">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B/R</manacost>
+				<cmc>1</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bioship Probes</name>
+			<text>Trample
+This creature enters with X +1/+1 counters on it. 
+When this creature enters, if its power is 5 or more, draw a card.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/208.png" num="218">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>XR/GR/G</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nomad Arkship</name>
+			<text>When this Spacecraft enters, create three 1/1 green Citizen creature tokens.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
+[level 10+] Flying [3/3]</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/209.png" num="223">STL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Artifact — Spacecraft</type>
+				<maintype>Artifact</maintype>
+				<manacost>2G/WG/W</manacost>
+				<cmc>4</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>MSI Uplift Ambassador</name>
+			<text>When this creature enters the battlefield, exile target creature you don&apos;t control. You and that creature&apos;s controller each get {E} equal to that creature&apos;s mana value.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/210.png" num="222">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>3W/BW/B</manacost>
+				<cmc>5</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Research Station</name>
+			<text>When this Spacecraft enters or becomes tapped, you may discard a card. If you do, draw a card.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
+[level 6+] {T}: Add {R} or {U}.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/211.png" num="225">STL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Artifact — Spacecraft</type>
+				<maintype>Artifact</maintype>
+				<manacost>2U/R</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Spawning Structure</name>
+			<text>Defender
+When this creature dies, create a 3/3 green Beast creature token.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/212.png" num="226">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Egg</type>
+				<maintype>Creature</maintype>
+				<manacost>1B/G</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>0/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stormchaser Cadre</name>
+			<text>This creature crews Vehicles and stations permanents as though its power were 2 greater.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/213.png" num="227">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Scout Pilot</type>
+				<maintype>Creature</maintype>
+				<manacost>R/W</manacost>
+				<cmc>1</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Federation Bureaucrats</name>
+			<text>{T}: Untap another target nonland permanent.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/214.png" num="219">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>1G/U</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ecumenopolis</name>
+			<text>When this land enters, sacrifice a land. When you do, move all charge counters on it to this land.
+{T}: Add {C}{C}.
+Station (Tap another creature you control: Put charge counters equal to its power on this Planet. Station only as a sorcery.)
+[level 12+] {T}: Add {C}{C}{C}{C}{C}.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/215.png" num="253">STL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Artifact Land — Planet</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Kai-Sha, Shadow Broker</name>
+			<text>When Kai-Sha enters and at the beginning of your upkeep, each player that doesn&apos;t control a token Spy creates a 1/1 colorless Spy creature token with &quot;This creature can&apos;t block or be blocked.&quot;
+{T}: Gain control of all Spies until end of turn. Untap them. They gain haste until end of turn. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/216.png" num="204">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ouw&apos;ron, Endbringer</name>
+			<text>Menace
+Whenever a creature you control deals combat damage to an opponent, exile it and the top card of your library. You may play these cards this turn. If you cast a spell this way, pay life equal to its mana value rather than pay its mana cost.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/217.png" num="209">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Mutant Bird Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reth, Hell&apos;s Heart</name>
+			<text>Trample, haste
+Reth enters with X +1/+1 counters on him. 
+Escape—{2}{R}{G}, Sacrifice a creature with mana value X, exile two other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/218.png" num="212">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Cat Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>XRG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unit Solace</name>
+			<text>Defender, lifelink
+When Unit Solace enters and at the beginning of your upkeep, put a +1/+1 counter on another target creature. If you don&apos;t control that creature, draw a card.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/219.png" num="217">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Nameless Apostle</name>
+			<text>Lifelink, menace, vigilance
+When The Nameless Apostle enters, create The Head of Zarqlan, a legendary Equipment artifact token that&apos;s all colors with &quot;While an opponent is choosing targets as part of casting a spell they control or activating an ability they control, that player must choose equipped creature if able.&quot; and equip {3}.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/220.png" num="207">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>3WB</manacost>
+				<cmc>5</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Borin, Brilliant Shipwright</name>
+			<text>When Borin enters, search your library for an artifact card, shuffle, then reveal that card. If it&apos;s a Vehicle or Spacecraft, put it in your hand. Otherwise, put it on top of your library.
+{T}: You get {E}{E}, then you may spend any amount of {E}. When you do, put that many charge counters and +1/+1 counters on target artifact.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/221.png" num="198">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Beast Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Th&apos;aal Hask&apos;Guron</name>
+			<text>Trample, haste
+Th&apos;aal Hask&apos;Guron has hexproof as long as a creature hasn&apos;t died this turn.
+Whenever a creature an opponent control dies, create a token that&apos;s a copy of it, except it&apos;s an artifact. (It&apos;s not a creature.)</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/222.png" num="215">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Giant Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>4BG</manacost>
+				<cmc>6</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Skrand Sharpbeak</name>
+			<text>Whenever Skrand Sharpbeak crews a Vehicle or stations a Spacecraft, put a +1/+1 counter on that Vehicle or Spacecraft. It gains haste and first strike until end of turn.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/223.png" num="214">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Bird Pilot</type>
+				<maintype>Creature</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Astrocreator Azaryn</name>
+			<text>Vanishing 3 (Astrocreator Azaryn enters with three time counters on her. At the beginning of your upkeep, remove a time counter from her. When the last is removed, sacrifice her.)
+Whenever a counter is removed from Astrocreator Azaryn, search your library for a land card, put it in the battlefield, then shuffle.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/224.png" num="196">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Plant Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Planetary Datacenter</name>
+			<text>{T}: Add one mana of any color.
+{2}, {T}, Sacrifice this artifact: Search your library for two basic land cards, put them in the battlefield tapped, then shuffle.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/225.png" num="240">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Starbase</name>
+			<text>When this Spacecraft enters, you may search your library for a basic land card, reveal it, then shuffle and put it on top.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
+[level 8+] Flying [4/3]</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/226.png" num="244">STL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Artifact — Spacecraft</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Star Chart</name>
+			<text>When this artifact enters, draw a card.
+{1}, {T}, Sacrifice this artifact: Target creature explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/227.png" num="243">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Map</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Exploration Synth</name>
+			<text>When this creature enters, surveil 1.
+{1}, {T}: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/228.png" num="234">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Labor Synth</name>
+			<text>Vigilance
+{2}, {T}: Put target card from a graveyard on the bottom of its owner&apos;s library.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/229.png" num="239">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Caravaneer Relinquary</name>
+			<text>{2}, {T}: Roll a d20.
+[b]1-5 [/b]| Create a Food token.
+[b]6-13 [/b]| Create a Treasure token.
+[b]14-19 [/b]| Create a Clue token.
+[b]20 [/b]| Draw three cards.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/230.png" num="232">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Advisor Synth</name>
+			<text>Other artifact creatures you control get +1/+1.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/231.png" num="228">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Research Drone</name>
+			<text>Flying
+{2}, Sacrifice this creature: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/232.png" num="242">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Clue Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Uplift Monument</name>
+			<text>{T}, Sacrifice a creature: Add {C}{C}.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/233.png" num="245">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Agriculture Drone</name>
+			<text>Flying
+When this creature enters, create a Food token. (It&apos;s an artifact with &quot;{2}, {T}, Sacrifice this token: You gain 3 life.&quot;)</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/234.png" num="230">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cryptic Monolith</name>
+			<text>This artifact doesn&apos;t untap during your untap step.
+{T}: Add {C}{C}{C}.
+Pay {E}{E}{E}: Untap this artifact.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/235.png" num="233">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Galactic Chart</name>
+			<text>Whenever equipped creature attacks, put a chart counter on this artifact. 
+Whenever equipped creature deals combat damage to a player, it explores once for each chart counter on this artifact. (To have this creature explore, reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)
+Equip {1}</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/236.png" num="236">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Psionic Suppressor</name>
+			<text>Defender, hexproof
+You have hexproof.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/237.png" num="241">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Wall</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<pt>0/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fusion Reactor</name>
+			<text>{T}: Add one mana of any color.
+{T}: You get {E}{E} (two energy counters). 
+{T}: Put three charge counters on target artifact.
+{4}, {T}: Draw a card.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/238.png" num="235">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hyperrelay</name>
+			<text>{2}, {T}: Exile target creature or Spacecraft. Return it to the battlefield at the beginning of the next end step. If a Spacecraft is exiled this way, it enters with five charge counters on it.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/239.png" num="237">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Terramorphic Expanse</name>
+			<text>{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/240.png" num="257">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Buried Ruin</name>
+			<text>{T}: Add {C}.
+{2}, {T}, Sacrifice this land: Return target artifact card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/241.png" num="249">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Consolidated Resource</name>
+			<text>{T}: Add {C}.
+{T}, Pay {E}: Add one mana of any color.
+{1}, {T}: You get {E} (an energy counter).</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/242.png" num="250">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Deserted Remains</name>
+			<text>{T}: Add {C}.
+{T}, Sacrifice this land: Create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/243.png" num="251">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Desert</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Gaian Idyll</name>
+			<text>This land enters tapped. As it enters, you gain 2 life and choose a color.
+{T}: Add one mana of the chosen color.</text>
+			<set rarity="uncommon" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/244.png" num="254">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Astral Rift</name>
+			<text>At the beginning of your upkeep, sacrifice this land. Then you may search your library for a basic land card, put it on the battlefield tapped, then shuffle.
+{T}: Add one mana of any color.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/245.png" num="248">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Arkship Paradise</name>
+			<text>{T}: Add {C}.
+{T}: Put a charge counter on this land.
+{T}: Add {W} or {G}. Activate only if this land has a charge counter on it.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/246.png" num="247">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Advanced Metropolis</name>
+			<text>{T}: Add {C}.
+{T}: Put a charge counter on this land.
+{T}: Add {W} or {U}. Activate only if this land has a charge counter on it.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/247.png" num="246">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Storm Formation Zone</name>
+			<text>{T}: Add {C}.
+{T}: Put a charge counter on this land.
+{T}: Add {R} or {G}. Activate only if this land has a charge counter on it.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/248.png" num="256">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Dusty Digsite</name>
+			<text>{T}: Add {C}.
+{T}: Put a charge counter on this land.
+{T}: Add {B} or {R}. Activate only if this land has a charge counter on it.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/249.png" num="252">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Monitored Habitation Complex</name>
+			<text>{T}: Add {C}.
+{T}: Put a charge counter on this land.
+{T}: Add {U} or {B}. Activate only if this land has a charge counter on it.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/250.png" num="255">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Cetana, Synthetic Queen</name>
+			<text>Vigilance, lifelink, ward {2}
+Whenever a nonartifact creature dies, its controller creates a token that&apos;s a copy of it, except it&apos;s an artifact in addition to its other types.
+{1}, Sacrifice an artifact: Copy target activated or triggered ability. This ability can&apos;t be copied.</text>
+			<set rarity="mythic" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/251.png" num="200">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Scientist Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>3WUB</manacost>
+				<cmc>6</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+				<pt>4/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Aetherophasic Engine</name>
+			<text>Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
+[level 4+] Whenever a permanent is put into exile from the battlefield, draw a card, then double the amount of charge counters on The Aetherophasic Engine. Then if there are 1,000 or more counters on The Aetherophasic Engine, you win the game.</text>
+			<set rarity="mythic" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/252.png" num="229">STL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Spacecraft</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Infinity Machine</name>
+			<text>Develop 5—{5} (You may cast this spell for its develop cost. If you do, it enters tapped with five stun counters on it.)
+Haste, trample, vigilance
+Whenever a counter is removed from The Infinity Machine, you may draw a card.</text>
+			<set rarity="mythic" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/253.png" num="238">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>10</manacost>
+				<cmc>10</cmc>
+				<pt>10/10</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Captain Ness&apos; Treasure</name>
+			<text>When this artifact enters, exile the top ten cards of your library face down with a relic counter on each of them. You may look at them for as long as they remain exiled.
+{T}: Put up to one card you own in exile with a relic counter on it into your hand. Create two Treasure tokens.</text>
+			<set rarity="mythic" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/254.png" num="231">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mindwarden Elder</name>
+			<text>Split second (As long as this spell is on the stack, players can&apos;t cast spells or activate abilities that aren&apos;t mana abilities.)
+Spells and abilities have split second.
+When this creature enters, put a hexproof counter on target permanent.</text>
+			<set rarity="mythic" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/255.png" num="206">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2/G2/W2/U</manacost>
+				<cmc>6</cmc>
+				<colors>WUG</colors>
+				<coloridentity>WUG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Draft Archetypes STL</name>
+			<text>​</text>
+			<set rarity="common" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/256.png" num="1">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Keides, Scion of Vagros</name>
+			<text>Lifelink
+Whenever Keides deals combat damage to a player, draw a card, then discard a card. Then if there are four or more artifact cards in your graveyard, you may untap and transform Keides.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/257.png" num="205">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Mutant Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Vagrosian Ruins</name>
+			<text>{T}: Add {W} or {U}.
+{T}: Draw a card.
+{T}: Target creature can&apos;t be blocked this turn.</text>
+			<set rarity="rare" picurl="https://-thenewestgear-stack-.github.io/sets/STL-files/img/258.png" num="205">STL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

@@ -1,0 +1,2264 @@
+﻿[
+    {
+        "card_name": "Trophies of Glory",
+        "number": 35,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "185"
+    },
+    {
+        "card_name": "Readied L-Gate",
+        "number": 69,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "188"
+    },
+    {
+        "card_name": "The End of the Cycle",
+        "number": 92,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "189"
+    },
+    {
+        "card_name": "Leviathan's Arrival",
+        "number": 135,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "192"
+    },
+    {
+        "card_name": "Perfected Vatsoldier",
+        "number": 177,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "193"
+    },
+    {
+        "card_name": "Utter Annihilation",
+        "number": 36,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "186"
+    },
+    {
+        "card_name": "Synaptic Lathe",
+        "number": 75,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "187"
+    },
+    {
+        "card_name": "Stellar Collapse",
+        "number": 110,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "190"
+    },
+    {
+        "card_name": "Shroud Breacher",
+        "number": 150,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "191"
+    },
+    {
+        "card_name": "Voidworm Troika",
+        "number": 193,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "194"
+    },
+    {
+        "card_name": "Astral Wanderer",
+        "number": 4,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "156"
+    },
+    {
+        "card_name": "Augmented Engineer",
+        "number": 42,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "163"
+    },
+    {
+        "card_name": "Deepspace Citadel",
+        "number": 89,
+        "shape": "leveler",
+        "set": "STL",
+        "rotated": false,
+        "position": "164"
+    },
+    {
+        "card_name": "Arc Furnace",
+        "number": 120,
+        "shape": "leveler",
+        "set": "STL",
+        "rotated": false,
+        "position": "171"
+    },
+    {
+        "card_name": "Biological Ascension",
+        "number": 162,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "178"
+    },
+    {
+        "card_name": "Cetana's Command",
+        "number": 9,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "154"
+    },
+    {
+        "card_name": "Augmented One",
+        "number": 43,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "161"
+    },
+    {
+        "card_name": "Hunted Specimen",
+        "number": 95,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "167"
+    },
+    {
+        "card_name": "Bioengineered Pup",
+        "number": 122,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "174"
+    },
+    {
+        "card_name": "Colony Ship",
+        "number": 166,
+        "shape": "leveler",
+        "set": "STL",
+        "rotated": false,
+        "position": "179"
+    },
+    {
+        "card_name": "The Khan's Throne",
+        "number": 20,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "155"
+    },
+    {
+        "card_name": "Foreign Asset",
+        "number": 55,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "159"
+    },
+    {
+        "card_name": "The Megamall",
+        "number": 100,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "169"
+    },
+    {
+        "card_name": "Biogenetic Behemoth",
+        "number": 123,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "175"
+    },
+    {
+        "card_name": "Evolving Lineage",
+        "number": 167,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "181"
+    },
+    {
+        "card_name": "Planetary Seal",
+        "number": 21,
+        "shape": "leveler",
+        "set": "STL",
+        "rotated": false,
+        "position": "151"
+    },
+    {
+        "card_name": "Hivemind Ascension",
+        "number": 57,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "160"
+    },
+    {
+        "card_name": "Psionic Ascension",
+        "number": 103,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "165"
+    },
+    {
+        "card_name": "Pirate Galleon",
+        "number": 142,
+        "shape": "leveler",
+        "set": "STL",
+        "rotated": false,
+        "position": "173"
+    },
+    {
+        "card_name": "First Contact Protocol",
+        "number": 169,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "182"
+    },
+    {
+        "card_name": "Solar Flare",
+        "number": 30,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "153"
+    },
+    {
+        "card_name": "Multi-Dimensional Analysis",
+        "number": 61,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "158"
+    },
+    {
+        "card_name": "Shroud's Bargain",
+        "number": 109,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "168"
+    },
+    {
+        "card_name": "Thermal Ascension",
+        "number": 152,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "172"
+    },
+    {
+        "card_name": "Hyperlane Charter",
+        "number": 171,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "184"
+    },
+    {
+        "card_name": "Synthetic Ascension",
+        "number": 33,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "150"
+    },
+    {
+        "card_name": "Quantum Catapult",
+        "number": 68,
+        "shape": "leveler",
+        "set": "STL",
+        "rotated": false,
+        "position": "157"
+    },
+    {
+        "card_name": "Stellar Devourer",
+        "number": 111,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "170"
+    },
+    {
+        "card_name": "Twisted Moon",
+        "number": 153,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "176"
+    },
+    {
+        "card_name": "Sights Unseen",
+        "number": 186,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "183"
+    },
+    {
+        "card_name": "VIR, Structural Engine",
+        "number": 37,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "152"
+    },
+    {
+        "card_name": "VIR, Research Engine",
+        "number": 78,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "162"
+    },
+    {
+        "card_name": "Zroni Precursor",
+        "number": 117,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "166"
+    },
+    {
+        "card_name": "VIR, Expansion Engine",
+        "number": 155,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "177"
+    },
+    {
+        "card_name": "Voidworm Larva",
+        "number": 192,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "180"
+    },
+    {
+        "card_name": "Arkship Commanders",
+        "number": 2,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "100"
+    },
+    {
+        "card_name": "Anomalous Crystalloid",
+        "number": 41,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "107"
+    },
+    {
+        "card_name": "Bioweapon Bombardment",
+        "number": 82,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "119"
+    },
+    {
+        "card_name": "Bridgelinked Commander",
+        "number": 124,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "137"
+    },
+    {
+        "card_name": "Baol Specimen",
+        "number": 158,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "141"
+    },
+    {
+        "card_name": "Capture Probe",
+        "number": 7,
+        "shape": "leveler",
+        "set": "STL",
+        "rotated": false,
+        "position": "95"
+    },
+    {
+        "card_name": "Automated Sentry",
+        "number": 44,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "114"
+    },
+    {
+        "card_name": "Cetana's Faithful",
+        "number": 84,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "126"
+    },
+    {
+        "card_name": "Colossal Feud",
+        "number": 125,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "134"
+    },
+    {
+        "card_name": "Biological Archive",
+        "number": 161,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "145"
+    },
+    {
+        "card_name": "Cosmos Harnesser",
+        "number": 11,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "98"
+    },
+    {
+        "card_name": "Cetana's Tempest",
+        "number": 47,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "109"
+    },
+    {
+        "card_name": "Cryogen Awakening",
+        "number": 88,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "122"
+    },
+    {
+        "card_name": "Crystalloid Colony",
+        "number": 126,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "136"
+    },
+    {
+        "card_name": "Bioprobes",
+        "number": 164,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "144"
+    },
+    {
+        "card_name": "Go Derelict",
+        "number": 15,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "99"
+    },
+    {
+        "card_name": "Conclave of the Relic",
+        "number": 48,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "108"
+    },
+    {
+        "card_name": "Entropic Recursion",
+        "number": 93,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "120"
+    },
+    {
+        "card_name": "Deep Core Mining",
+        "number": 130,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "130"
+    },
+    {
+        "card_name": "Herd Marshaller",
+        "number": 170,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "148"
+    },
+    {
+        "card_name": "Hydroponics Unit",
+        "number": 17,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "102"
+    },
+    {
+        "card_name": "Driven Assimilator",
+        "number": 51,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "112"
+    },
+    {
+        "card_name": "Long Gone",
+        "number": 96,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "124"
+    },
+    {
+        "card_name": "Marauder Captain",
+        "number": 137,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "129"
+    },
+    {
+        "card_name": "Idyll Guardian",
+        "number": 172,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "149"
+    },
+    {
+        "card_name": "Incessant Protesters",
+        "number": 18,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "103"
+    },
+    {
+        "card_name": "Enhanced Monitor",
+        "number": 53,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "115"
+    },
+    {
+        "card_name": "Marketplace Tourists",
+        "number": 98,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "123"
+    },
+    {
+        "card_name": "Mechanized Marauder",
+        "number": 139,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "135"
+    },
+    {
+        "card_name": "Lifeseeding Probe",
+        "number": 174,
+        "shape": "leveler",
+        "set": "STL",
+        "rotated": false,
+        "position": "139"
+    },
+    {
+        "card_name": "Investment Analyst",
+        "number": 19,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "96"
+    },
+    {
+        "card_name": "Future Flight",
+        "number": 56,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "116"
+    },
+    {
+        "card_name": "Monitoring Probe",
+        "number": 101,
+        "shape": "leveler",
+        "set": "STL",
+        "rotated": false,
+        "position": "117"
+    },
+    {
+        "card_name": "Militarist Impetus",
+        "number": 140,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "133"
+    },
+    {
+        "card_name": "Prosperous Unification",
+        "number": 179,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "143"
+    },
+    {
+        "card_name": "Relic Museum",
+        "number": 24,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "97"
+    },
+    {
+        "card_name": "Lost in the Dark",
+        "number": 58,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "113"
+    },
+    {
+        "card_name": "Prophecy of Power",
+        "number": 102,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "125"
+    },
+    {
+        "card_name": "Planetary Bombarder",
+        "number": 143,
+        "shape": "leveler",
+        "set": "STL",
+        "rotated": false,
+        "position": "132"
+    },
+    {
+        "card_name": "Ruins Trawler",
+        "number": 184,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "147"
+    },
+    {
+        "card_name": "Surprise!",
+        "number": 32,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "104"
+    },
+    {
+        "card_name": "Neutralization Probe",
+        "number": 62,
+        "shape": "leveler",
+        "set": "STL",
+        "rotated": false,
+        "position": "106"
+    },
+    {
+        "card_name": "Radiation Pulse",
+        "number": 104,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "127"
+    },
+    {
+        "card_name": "Psionic Conclave",
+        "number": 144,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "138"
+    },
+    {
+        "card_name": "Toxoid Trader",
+        "number": 189,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "146"
+    },
+    {
+        "card_name": "Virtualize",
+        "number": 38,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "105"
+    },
+    {
+        "card_name": "Pathway Mentor",
+        "number": 63,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "110"
+    },
+    {
+        "card_name": "Toxoid Commander",
+        "number": 114,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "118"
+    },
+    {
+        "card_name": "Scrapship Probe",
+        "number": 148,
+        "shape": "leveler",
+        "set": "STL",
+        "rotated": false,
+        "position": "128"
+    },
+    {
+        "card_name": "Upon Ancient Ground",
+        "number": 191,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "142"
+    },
+    {
+        "card_name": "War Councilors",
+        "number": 39,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "101"
+    },
+    {
+        "card_name": "Repair Bay",
+        "number": 71,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "111"
+    },
+    {
+        "card_name": "Warpling",
+        "number": 116,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "121"
+    },
+    {
+        "card_name": "Space Amoeba",
+        "number": 151,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "131"
+    },
+    {
+        "card_name": "Xenocompatibility",
+        "number": 195,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "140"
+    },
+    {
+        "card_name": "Agent's Dataslate",
+        "number": 1,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "11"
+    },
+    {
+        "card_name": "Ancient Abandonment",
+        "number": 40,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "33"
+    },
+    {
+        "card_name": "Anomalous Nebula",
+        "number": 79,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "48"
+    },
+    {
+        "card_name": "Active Archaeology",
+        "number": 118,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "66"
+    },
+    {
+        "card_name": "Assisted Regeneration",
+        "number": 157,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "81"
+    },
+    {
+        "card_name": "Assisted Archaeologist",
+        "number": 3,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "10"
+    },
+    {
+        "card_name": "Cadre of Agents",
+        "number": 45,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "34"
+    },
+    {
+        "card_name": "Arena Brawlers",
+        "number": 80,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "51"
+    },
+    {
+        "card_name": "Ancient Structure",
+        "number": 119,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "68"
+    },
+    {
+        "card_name": "Biocolony",
+        "number": 159,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "90"
+    },
+    {
+        "card_name": "Augmented Biker",
+        "number": 5,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "7"
+    },
+    {
+        "card_name": "Calculate",
+        "number": 46,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "29"
+    },
+    {
+        "card_name": "Augment Smuggler",
+        "number": 81,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "54"
+    },
+    {
+        "card_name": "Assault Army Officer",
+        "number": 121,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "60"
+    },
+    {
+        "card_name": "Bioconsumption",
+        "number": 160,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "87"
+    },
+    {
+        "card_name": "Blorg Tourists",
+        "number": 6,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "3"
+    },
+    {
+        "card_name": "Decryption Specialist",
+        "number": 49,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "37"
+    },
+    {
+        "card_name": "Catastrophe Signaler",
+        "number": 83,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "42"
+    },
+    {
+        "card_name": "Cunning Manuever",
+        "number": 127,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "69"
+    },
+    {
+        "card_name": "Biomorphosis",
+        "number": 163,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "82"
+    },
+    {
+        "card_name": "Capture Sphere",
+        "number": 8,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "9"
+    },
+    {
+        "card_name": "Digital Diplomats",
+        "number": 50,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "21"
+    },
+    {
+        "card_name": "Clone Trooper",
+        "number": 85,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "39"
+    },
+    {
+        "card_name": "Curious Synth",
+        "number": 128,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "71"
+    },
+    {
+        "card_name": "Biotroop Prototype",
+        "number": 165,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "78"
+    },
+    {
+        "card_name": "Charge Forward",
+        "number": 10,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "15"
+    },
+    {
+        "card_name": "Engineered Specimen",
+        "number": 52,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "27"
+    },
+    {
+        "card_name": "Corporate Administrator",
+        "number": 86,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "56"
+    },
+    {
+        "card_name": "Cutholoid",
+        "number": 129,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "75"
+    },
+    {
+        "card_name": "Explosive Growth",
+        "number": 168,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "88"
+    },
+    {
+        "card_name": "Creed Preacher",
+        "number": 12,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "12"
+    },
+    {
+        "card_name": "Eye Drone",
+        "number": 54,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "22"
+    },
+    {
+        "card_name": "Corporate Hedonism",
+        "number": 87,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "40"
+    },
+    {
+        "card_name": "Fleet Assault",
+        "number": 131,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "61"
+    },
+    {
+        "card_name": "Landblighter",
+        "number": 173,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "93"
+    },
+    {
+        "card_name": "Disaster Rescue Team",
+        "number": 13,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "8"
+    },
+    {
+        "card_name": "Machine Introspection",
+        "number": 59,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "23"
+    },
+    {
+        "card_name": "Disrupting Influence",
+        "number": 90,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "49"
+    },
+    {
+        "card_name": "Furious Envoy",
+        "number": 132,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "74"
+    },
+    {
+        "card_name": "Monstrous Emergence",
+        "number": 175,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "86"
+    },
+    {
+        "card_name": "Disastrous Strike",
+        "number": 14,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "13"
+    },
+    {
+        "card_name": "Mechanized Citizen",
+        "number": 60,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "35"
+    },
+    {
+        "card_name": "Emergency Augmentation",
+        "number": 91,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "41"
+    },
+    {
+        "card_name": "Hostile Wildlife",
+        "number": 133,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "67"
+    },
+    {
+        "card_name": "Natural Wonder",
+        "number": 176,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "91"
+    },
+    {
+        "card_name": "Hunter-Killer Squad",
+        "number": 16,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "18"
+    },
+    {
+        "card_name": "Place in Stasis",
+        "number": 64,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "30"
+    },
+    {
+        "card_name": "Flesh Peddling",
+        "number": 94,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "46"
+    },
+    {
+        "card_name": "Investigation Drone",
+        "number": 134,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "65"
+    },
+    {
+        "card_name": "Prosperous Agriworlder",
+        "number": 178,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "80"
+    },
+    {
+        "card_name": "Raise Shields",
+        "number": 22,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "17"
+    },
+    {
+        "card_name": "Politicize",
+        "number": 65,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "31"
+    },
+    {
+        "card_name": "Marauder Duelist",
+        "number": 97,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "55"
+    },
+    {
+        "card_name": "Logistics Officer",
+        "number": 136,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "70"
+    },
+    {
+        "card_name": "Rampant Growth",
+        "number": 180,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "92"
+    },
+    {
+        "card_name": "Relic Cataloguer",
+        "number": 23,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "14"
+    },
+    {
+        "card_name": "Prediction System",
+        "number": 66,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "32"
+    },
+    {
+        "card_name": "Masked Tracker",
+        "number": 99,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "53"
+    },
+    {
+        "card_name": "Marauder Crew",
+        "number": 138,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "64"
+    },
+    {
+        "card_name": "Relic of Botany",
+        "number": 181,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "76"
+    },
+    {
+        "card_name": "Relic of Culture",
+        "number": 25,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "0"
+    },
+    {
+        "card_name": "Propagandize",
+        "number": 67,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "25"
+    },
+    {
+        "card_name": "Relic of Anatomy",
+        "number": 105,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "38"
+    },
+    {
+        "card_name": "Military Archaeologists",
+        "number": 141,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "59"
+    },
+    {
+        "card_name": "Return to Nature",
+        "number": 182,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "77"
+    },
+    {
+        "card_name": "Resort World Tourguide",
+        "number": 26,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "4"
+    },
+    {
+        "card_name": "Relic of Language",
+        "number": 70,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "19"
+    },
+    {
+        "card_name": "Robotics Specialists",
+        "number": 106,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "50"
+    },
+    {
+        "card_name": "Relic of Warfare",
+        "number": 145,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "57"
+    },
+    {
+        "card_name": "Roar of the Wurm",
+        "number": 183,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "85"
+    },
+    {
+        "card_name": "Revelation of Power",
+        "number": 27,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "6"
+    },
+    {
+        "card_name": "Rift Shielding",
+        "number": 72,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "20"
+    },
+    {
+        "card_name": "Rogue Archaeologist",
+        "number": 107,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "45"
+    },
+    {
+        "card_name": "Resilient Wildlife",
+        "number": 146,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "63"
+    },
+    {
+        "card_name": "Sealed Xenomorph",
+        "number": 185,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "83"
+    },
+    {
+        "card_name": "Riftslugs",
+        "number": 28,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "5"
+    },
+    {
+        "card_name": "Sapient Simulation",
+        "number": 73,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "28"
+    },
+    {
+        "card_name": "Shroud Communion",
+        "number": 108,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "47"
+    },
+    {
+        "card_name": "Scorching Thermophile",
+        "number": 147,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "72"
+    },
+    {
+        "card_name": "Titanic Lifeform",
+        "number": 188,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "84"
+    },
+    {
+        "card_name": "Shock Trooper",
+        "number": 29,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "1"
+    },
+    {
+        "card_name": "Shroud Fears",
+        "number": 74,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "36"
+    },
+    {
+        "card_name": "Synaptic Processor",
+        "number": 112,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "52"
+    },
+    {
+        "card_name": "Sharp-class Corvette",
+        "number": 149,
+        "shape": "leveler",
+        "set": "STL",
+        "rotated": false,
+        "position": "62"
+    },
+    {
+        "card_name": "Twisted Weather",
+        "number": 190,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "89"
+    },
+    {
+        "card_name": "Squadron Commander",
+        "number": 31,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "16"
+    },
+    {
+        "card_name": "Synthetic Citizen",
+        "number": 76,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "24"
+    },
+    {
+        "card_name": "Target Locked",
+        "number": 113,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "43"
+    },
+    {
+        "card_name": "Venture the Ruins",
+        "number": 154,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "73"
+    },
+    {
+        "card_name": "Xenobiology Specialist",
+        "number": 194,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "79"
+    },
+    {
+        "card_name": "Tiyanki Flight",
+        "number": 34,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "2"
+    },
+    {
+        "card_name": "Urban Informants",
+        "number": 77,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "26"
+    },
+    {
+        "card_name": "Vicious Parasites",
+        "number": 115,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "44"
+    },
+    {
+        "card_name": "Zrosight",
+        "number": 156,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "58"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "Keides, Scion of Vagros",
+        "number": 205,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "257"
+    },
+    {
+        "card_name": "Kai-Sha, Shadow Broker",
+        "number": 204,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "216"
+    },
+    {
+        "card_name": "Ouw'ron, Endbringer",
+        "number": 209,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "217"
+    },
+    {
+        "card_name": "Reth, Hell's Heart",
+        "number": 212,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "218"
+    },
+    {
+        "card_name": "Unit Solace",
+        "number": 217,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "219"
+    },
+    {
+        "card_name": "Cybernetic Creeds",
+        "number": 201,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "195"
+    },
+    {
+        "card_name": "Deputy Coordinator",
+        "number": 202,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "196"
+    },
+    {
+        "card_name": "Overtuned",
+        "number": 210,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "197"
+    },
+    {
+        "card_name": "Here Be Dragons",
+        "number": 203,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "198"
+    },
+    {
+        "card_name": "Cadre of Diplomats",
+        "number": 199,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "199"
+    },
+    {
+        "card_name": "Machine Decree",
+        "number": 221,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "205"
+    },
+    {
+        "card_name": "Imperial Machinations",
+        "number": 220,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "206"
+    },
+    {
+        "card_name": "Price of War",
+        "number": 224,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "207"
+    },
+    {
+        "card_name": "Bioship Probes",
+        "number": 218,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "208"
+    },
+    {
+        "card_name": "Nomad Arkship",
+        "number": 223,
+        "shape": "leveler",
+        "set": "STL",
+        "rotated": false,
+        "position": "209"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "The Nameless Apostle",
+        "number": 207,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "220"
+    },
+    {
+        "card_name": "Borin, Brilliant Shipwright",
+        "number": 198,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "221"
+    },
+    {
+        "card_name": "Th'aal Hask'Guron",
+        "number": 215,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "222"
+    },
+    {
+        "card_name": "Skrand Sharpbeak",
+        "number": 214,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "223"
+    },
+    {
+        "card_name": "Astrocreator Azaryn",
+        "number": 196,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "224"
+    },
+    {
+        "card_name": "Necromancer Cadre",
+        "number": 208,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "200"
+    },
+    {
+        "card_name": "Psionic Troopers",
+        "number": 211,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "201"
+    },
+    {
+        "card_name": "Scrapyard Venture",
+        "number": 213,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "202"
+    },
+    {
+        "card_name": "Twinned Virtualist",
+        "number": 216,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "203"
+    },
+    {
+        "card_name": "Bioprobe Troop Carrier",
+        "number": 197,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "204"
+    },
+    {
+        "card_name": "MSI Uplift Ambassador",
+        "number": 222,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "210"
+    },
+    {
+        "card_name": "Research Station",
+        "number": 225,
+        "shape": "leveler",
+        "set": "STL",
+        "rotated": false,
+        "position": "211"
+    },
+    {
+        "card_name": "Spawning Structure",
+        "number": 226,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "212"
+    },
+    {
+        "card_name": "Stormchaser Cadre",
+        "number": 227,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "213"
+    },
+    {
+        "card_name": "Federation Bureaucrats",
+        "number": 219,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "214"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Cetana, Synthetic Queen",
+        "number": 200,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "251"
+    },
+    {
+        "card_name": "Mindwarden Elder",
+        "number": 206,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "255"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "The Aetherophasic Engine",
+        "number": 229,
+        "shape": "leveler",
+        "set": "STL",
+        "rotated": false,
+        "position": "252"
+    },
+    {
+        "card_name": "Captain Ness' Treasure",
+        "number": 231,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "254"
+    },
+    {
+        "card_name": "The Infinity Machine",
+        "number": 238,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "253"
+    },
+    {
+        "card_name": "Cryptic Monolith",
+        "number": 233,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "235"
+    },
+    {
+        "card_name": "Fusion Reactor",
+        "number": 235,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "238"
+    },
+    {
+        "card_name": "Galactic Chart",
+        "number": 236,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "236"
+    },
+    {
+        "card_name": "Hyperrelay",
+        "number": 237,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "239"
+    },
+    {
+        "card_name": "Psionic Suppressor",
+        "number": 241,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "237"
+    },
+    {
+        "card_name": "Advisor Synth",
+        "number": 228,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "231"
+    },
+    {
+        "card_name": "Agriculture Drone",
+        "number": 230,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "234"
+    },
+    {
+        "card_name": "Caravaneer Relinquary",
+        "number": 232,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "230"
+    },
+    {
+        "card_name": "Research Drone",
+        "number": 242,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "232"
+    },
+    {
+        "card_name": "Uplift Monument",
+        "number": 245,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "233"
+    },
+    {
+        "card_name": "Exploration Synth",
+        "number": 234,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "228"
+    },
+    {
+        "card_name": "Labor Synth",
+        "number": 239,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "229"
+    },
+    {
+        "card_name": "Planetary Datacenter",
+        "number": 240,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "225"
+    },
+    {
+        "card_name": "Star Chart",
+        "number": 243,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "227"
+    },
+    {
+        "card_name": "Starbase",
+        "number": 244,
+        "shape": "leveler",
+        "set": "STL",
+        "rotated": false,
+        "position": "226"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->land",
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Terrain Trawler",
+        "number": 187,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "94"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "The Vagrosian Ruins",
+        "number": 205,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "258"
+    },
+    {
+        "card_name": "Monitored Habitation Complex",
+        "number": 255,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "250"
+    },
+    {
+        "card_name": "Dusty Digsite",
+        "number": 252,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "249"
+    },
+    {
+        "card_name": "Storm Formation Zone",
+        "number": 256,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "248"
+    },
+    {
+        "card_name": "Arkship Paradise",
+        "number": 247,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "246"
+    },
+    {
+        "card_name": "Advanced Metropolis",
+        "number": 246,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "247"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Astral Rift",
+        "number": 248,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "245"
+    },
+    {
+        "card_name": "Ecumenopolis",
+        "number": 253,
+        "shape": "leveler",
+        "set": "STL",
+        "rotated": false,
+        "position": "215"
+    },
+    {
+        "card_name": "Buried Ruin",
+        "number": 249,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "241"
+    },
+    {
+        "card_name": "Consolidated Resource",
+        "number": 250,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "242"
+    },
+    {
+        "card_name": "Deserted Remains",
+        "number": 251,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "243"
+    },
+    {
+        "card_name": "Gaian Idyll",
+        "number": 254,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "244"
+    },
+    {
+        "card_name": "Terramorphic Expanse",
+        "number": 257,
+        "shape": "normal",
+        "set": "STL",
+        "rotated": false,
+        "position": "240"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->token",
+    {
+        "card_name": "Draft Archetypes",
+        "number": 1,
+        "shape": "token",
+        "set": "STL",
+        "rotated": false,
+        "position": "256"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]

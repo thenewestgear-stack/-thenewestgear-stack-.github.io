@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="../sets/STL-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
+	<title>STL visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.close-btn {
+			background: url('../img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('../img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			border-radius: 3.733% / 2.677%;
+		}
+		.flip-btn {
+			background: url('../img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('../img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/STL-files/logo.png" />
+	<img class="preload-hidden" src="../sets/STL-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a id="header-articles-link" onclick="window.location.href = rootPath + '/all-articles'" style="display: none;"><img id="header-articles" class="sg-icon">Articles</a>
+			<a id="header-decks-link" onclick="window.location.href = rootPath + '/decks'" style="display: none;"><img id="header-decks" class="sg-icon">Decks</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deckbuilder" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-articles").src = rootPath + "/img/articles.png";
+			document.getElementById("header-decks").src = rootPath + "/img/deck.png";
+			document.getElementById("header-deckbuilder").src = rootPath + "/img/deckbuilder.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+
+			// Hide Articles if none exist
+			fetch(rootPath + '/all-articles.html', { method: 'HEAD' })
+				.then(response => {
+					if (response.ok) document.getElementById('header-articles-link').style.display = 'flex';
+				}).catch(() => {});
+
+			// Hide Decks if none exist
+			fetch(rootPath + '/decks.html', { method: 'HEAD' })
+				.then(response => {
+					if (response.ok) document.getElementById('header-decks-link').style.display = 'flex';
+				}).catch(() => {});
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/STL"><img src="../sets/STL-files/icon.png">Stellaris — Set</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="../sets/STL-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="sets\STL-files\img\185.png" id="STL_185" data-flag="@X" onclick="openSidebar('STL_185',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\188.png" id="STL_188" data-flag="@X" onclick="openSidebar('STL_188',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\189.png" id="STL_189" data-flag="@X" onclick="openSidebar('STL_189',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\192.png" id="STL_192" data-flag="@X" onclick="openSidebar('STL_192',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\193.png" id="STL_193" data-flag="@X" onclick="openSidebar('STL_193',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\186.png" id="STL_186" data-flag="@X" onclick="openSidebar('STL_186',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\187.png" id="STL_187" data-flag="@X" onclick="openSidebar('STL_187',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\190.png" id="STL_190" data-flag="@X" onclick="openSidebar('STL_190',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\191.png" id="STL_191" data-flag="@X" onclick="openSidebar('STL_191',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\194.png" id="STL_194" data-flag="@X" onclick="openSidebar('STL_194',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\156.png" id="STL_156" data-flag="@X" onclick="openSidebar('STL_156',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\163.png" id="STL_163" data-flag="@X" onclick="openSidebar('STL_163',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\164.png" id="STL_164" data-flag="@X" onclick="openSidebar('STL_164',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\171.png" id="STL_171" data-flag="@X" onclick="openSidebar('STL_171',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\178.png" id="STL_178" data-flag="@X" onclick="openSidebar('STL_178',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\154.png" id="STL_154" data-flag="@X" onclick="openSidebar('STL_154',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\161.png" id="STL_161" data-flag="@X" onclick="openSidebar('STL_161',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\167.png" id="STL_167" data-flag="@X" onclick="openSidebar('STL_167',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\174.png" id="STL_174" data-flag="@X" onclick="openSidebar('STL_174',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\179.png" id="STL_179" data-flag="@X" onclick="openSidebar('STL_179',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\155.png" id="STL_155" data-flag="@X" onclick="openSidebar('STL_155',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\159.png" id="STL_159" data-flag="@X" onclick="openSidebar('STL_159',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\169.png" id="STL_169" data-flag="@X" onclick="openSidebar('STL_169',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\175.png" id="STL_175" data-flag="@X" onclick="openSidebar('STL_175',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\181.png" id="STL_181" data-flag="@X" onclick="openSidebar('STL_181',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\151.png" id="STL_151" data-flag="@X" onclick="openSidebar('STL_151',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\160.png" id="STL_160" data-flag="@X" onclick="openSidebar('STL_160',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\165.png" id="STL_165" data-flag="@X" onclick="openSidebar('STL_165',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\173.png" id="STL_173" data-flag="@X" onclick="openSidebar('STL_173',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\182.png" id="STL_182" data-flag="@X" onclick="openSidebar('STL_182',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\153.png" id="STL_153" data-flag="@X" onclick="openSidebar('STL_153',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\158.png" id="STL_158" data-flag="@X" onclick="openSidebar('STL_158',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\168.png" id="STL_168" data-flag="@X" onclick="openSidebar('STL_168',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\172.png" id="STL_172" data-flag="@X" onclick="openSidebar('STL_172',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\184.png" id="STL_184" data-flag="@X" onclick="openSidebar('STL_184',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\150.png" id="STL_150" data-flag="@X" onclick="openSidebar('STL_150',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\157.png" id="STL_157" data-flag="@X" onclick="openSidebar('STL_157',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\170.png" id="STL_170" data-flag="@X" onclick="openSidebar('STL_170',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\176.png" id="STL_176" data-flag="@X" onclick="openSidebar('STL_176',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\183.png" id="STL_183" data-flag="@X" onclick="openSidebar('STL_183',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\152.png" id="STL_152" data-flag="@X" onclick="openSidebar('STL_152',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\162.png" id="STL_162" data-flag="@X" onclick="openSidebar('STL_162',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\166.png" id="STL_166" data-flag="@X" onclick="openSidebar('STL_166',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\177.png" id="STL_177" data-flag="@X" onclick="openSidebar('STL_177',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\180.png" id="STL_180" data-flag="@X" onclick="openSidebar('STL_180',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\100.png" id="STL_100" data-flag="@X" onclick="openSidebar('STL_100',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\107.png" id="STL_107" data-flag="@X" onclick="openSidebar('STL_107',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\119.png" id="STL_119" data-flag="@X" onclick="openSidebar('STL_119',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\137.png" id="STL_137" data-flag="@X" onclick="openSidebar('STL_137',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\141.png" id="STL_141" data-flag="@X" onclick="openSidebar('STL_141',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\95.png" id="STL_95" data-flag="@X" onclick="openSidebar('STL_95',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\114.png" id="STL_114" data-flag="@X" onclick="openSidebar('STL_114',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\126.png" id="STL_126" data-flag="@X" onclick="openSidebar('STL_126',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\134.png" id="STL_134" data-flag="@X" onclick="openSidebar('STL_134',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\145.png" id="STL_145" data-flag="@X" onclick="openSidebar('STL_145',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\98.png" id="STL_98" data-flag="@X" onclick="openSidebar('STL_98',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\109.png" id="STL_109" data-flag="@X" onclick="openSidebar('STL_109',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\122.png" id="STL_122" data-flag="@X" onclick="openSidebar('STL_122',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\136.png" id="STL_136" data-flag="@X" onclick="openSidebar('STL_136',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\144.png" id="STL_144" data-flag="@X" onclick="openSidebar('STL_144',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\99.png" id="STL_99" data-flag="@X" onclick="openSidebar('STL_99',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\108.png" id="STL_108" data-flag="@X" onclick="openSidebar('STL_108',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\120.png" id="STL_120" data-flag="@X" onclick="openSidebar('STL_120',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\130.png" id="STL_130" data-flag="@X" onclick="openSidebar('STL_130',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\148.png" id="STL_148" data-flag="@X" onclick="openSidebar('STL_148',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\102.png" id="STL_102" data-flag="@X" onclick="openSidebar('STL_102',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\112.png" id="STL_112" data-flag="@X" onclick="openSidebar('STL_112',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\124.png" id="STL_124" data-flag="@X" onclick="openSidebar('STL_124',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\129.png" id="STL_129" data-flag="@X" onclick="openSidebar('STL_129',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\149.png" id="STL_149" data-flag="@X" onclick="openSidebar('STL_149',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\103.png" id="STL_103" data-flag="@X" onclick="openSidebar('STL_103',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\115.png" id="STL_115" data-flag="@X" onclick="openSidebar('STL_115',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\123.png" id="STL_123" data-flag="@X" onclick="openSidebar('STL_123',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\135.png" id="STL_135" data-flag="@X" onclick="openSidebar('STL_135',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\139.png" id="STL_139" data-flag="@X" onclick="openSidebar('STL_139',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\96.png" id="STL_96" data-flag="@X" onclick="openSidebar('STL_96',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\116.png" id="STL_116" data-flag="@X" onclick="openSidebar('STL_116',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\117.png" id="STL_117" data-flag="@X" onclick="openSidebar('STL_117',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\133.png" id="STL_133" data-flag="@X" onclick="openSidebar('STL_133',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\143.png" id="STL_143" data-flag="@X" onclick="openSidebar('STL_143',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\97.png" id="STL_97" data-flag="@X" onclick="openSidebar('STL_97',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\113.png" id="STL_113" data-flag="@X" onclick="openSidebar('STL_113',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\125.png" id="STL_125" data-flag="@X" onclick="openSidebar('STL_125',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\132.png" id="STL_132" data-flag="@X" onclick="openSidebar('STL_132',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\147.png" id="STL_147" data-flag="@X" onclick="openSidebar('STL_147',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\104.png" id="STL_104" data-flag="@X" onclick="openSidebar('STL_104',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\106.png" id="STL_106" data-flag="@X" onclick="openSidebar('STL_106',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\127.png" id="STL_127" data-flag="@X" onclick="openSidebar('STL_127',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\138.png" id="STL_138" data-flag="@X" onclick="openSidebar('STL_138',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\146.png" id="STL_146" data-flag="@X" onclick="openSidebar('STL_146',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\105.png" id="STL_105" data-flag="@X" onclick="openSidebar('STL_105',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\110.png" id="STL_110" data-flag="@X" onclick="openSidebar('STL_110',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\118.png" id="STL_118" data-flag="@X" onclick="openSidebar('STL_118',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\128.png" id="STL_128" data-flag="@X" onclick="openSidebar('STL_128',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\142.png" id="STL_142" data-flag="@X" onclick="openSidebar('STL_142',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\101.png" id="STL_101" data-flag="@X" onclick="openSidebar('STL_101',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\111.png" id="STL_111" data-flag="@X" onclick="openSidebar('STL_111',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\121.png" id="STL_121" data-flag="@X" onclick="openSidebar('STL_121',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\131.png" id="STL_131" data-flag="@X" onclick="openSidebar('STL_131',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\140.png" id="STL_140" data-flag="@X" onclick="openSidebar('STL_140',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\11.png" id="STL_11" data-flag="@X" onclick="openSidebar('STL_11',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\33.png" id="STL_33" data-flag="@X" onclick="openSidebar('STL_33',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\48.png" id="STL_48" data-flag="@X" onclick="openSidebar('STL_48',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\66.png" id="STL_66" data-flag="@X" onclick="openSidebar('STL_66',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\81.png" id="STL_81" data-flag="@X" onclick="openSidebar('STL_81',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\10.png" id="STL_10" data-flag="@X" onclick="openSidebar('STL_10',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\34.png" id="STL_34" data-flag="@X" onclick="openSidebar('STL_34',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\51.png" id="STL_51" data-flag="@X" onclick="openSidebar('STL_51',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\68.png" id="STL_68" data-flag="@X" onclick="openSidebar('STL_68',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\90.png" id="STL_90" data-flag="@X" onclick="openSidebar('STL_90',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\7.png" id="STL_7" data-flag="@X" onclick="openSidebar('STL_7',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\29.png" id="STL_29" data-flag="@X" onclick="openSidebar('STL_29',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\54.png" id="STL_54" data-flag="@X" onclick="openSidebar('STL_54',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\60.png" id="STL_60" data-flag="@X" onclick="openSidebar('STL_60',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\87.png" id="STL_87" data-flag="@X" onclick="openSidebar('STL_87',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\3.png" id="STL_3" data-flag="@X" onclick="openSidebar('STL_3',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\37.png" id="STL_37" data-flag="@X" onclick="openSidebar('STL_37',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\42.png" id="STL_42" data-flag="@X" onclick="openSidebar('STL_42',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\69.png" id="STL_69" data-flag="@X" onclick="openSidebar('STL_69',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\82.png" id="STL_82" data-flag="@X" onclick="openSidebar('STL_82',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\9.png" id="STL_9" data-flag="@X" onclick="openSidebar('STL_9',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\21.png" id="STL_21" data-flag="@X" onclick="openSidebar('STL_21',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\39.png" id="STL_39" data-flag="@X" onclick="openSidebar('STL_39',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\71.png" id="STL_71" data-flag="@X" onclick="openSidebar('STL_71',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\78.png" id="STL_78" data-flag="@X" onclick="openSidebar('STL_78',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\15.png" id="STL_15" data-flag="@X" onclick="openSidebar('STL_15',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\27.png" id="STL_27" data-flag="@X" onclick="openSidebar('STL_27',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\56.png" id="STL_56" data-flag="@X" onclick="openSidebar('STL_56',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\75.png" id="STL_75" data-flag="@X" onclick="openSidebar('STL_75',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\88.png" id="STL_88" data-flag="@X" onclick="openSidebar('STL_88',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\12.png" id="STL_12" data-flag="@X" onclick="openSidebar('STL_12',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\22.png" id="STL_22" data-flag="@X" onclick="openSidebar('STL_22',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\40.png" id="STL_40" data-flag="@X" onclick="openSidebar('STL_40',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\61.png" id="STL_61" data-flag="@X" onclick="openSidebar('STL_61',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\93.png" id="STL_93" data-flag="@X" onclick="openSidebar('STL_93',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\8.png" id="STL_8" data-flag="@X" onclick="openSidebar('STL_8',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\23.png" id="STL_23" data-flag="@X" onclick="openSidebar('STL_23',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\49.png" id="STL_49" data-flag="@X" onclick="openSidebar('STL_49',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\74.png" id="STL_74" data-flag="@X" onclick="openSidebar('STL_74',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\86.png" id="STL_86" data-flag="@X" onclick="openSidebar('STL_86',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\13.png" id="STL_13" data-flag="@X" onclick="openSidebar('STL_13',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\35.png" id="STL_35" data-flag="@X" onclick="openSidebar('STL_35',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\41.png" id="STL_41" data-flag="@X" onclick="openSidebar('STL_41',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\67.png" id="STL_67" data-flag="@X" onclick="openSidebar('STL_67',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\91.png" id="STL_91" data-flag="@X" onclick="openSidebar('STL_91',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\18.png" id="STL_18" data-flag="@X" onclick="openSidebar('STL_18',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\30.png" id="STL_30" data-flag="@X" onclick="openSidebar('STL_30',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\46.png" id="STL_46" data-flag="@X" onclick="openSidebar('STL_46',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\65.png" id="STL_65" data-flag="@X" onclick="openSidebar('STL_65',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\80.png" id="STL_80" data-flag="@X" onclick="openSidebar('STL_80',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\17.png" id="STL_17" data-flag="@X" onclick="openSidebar('STL_17',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\31.png" id="STL_31" data-flag="@X" onclick="openSidebar('STL_31',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\55.png" id="STL_55" data-flag="@X" onclick="openSidebar('STL_55',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\70.png" id="STL_70" data-flag="@X" onclick="openSidebar('STL_70',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\92.png" id="STL_92" data-flag="@X" onclick="openSidebar('STL_92',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\14.png" id="STL_14" data-flag="@X" onclick="openSidebar('STL_14',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\32.png" id="STL_32" data-flag="@X" onclick="openSidebar('STL_32',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\53.png" id="STL_53" data-flag="@X" onclick="openSidebar('STL_53',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\64.png" id="STL_64" data-flag="@X" onclick="openSidebar('STL_64',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\76.png" id="STL_76" data-flag="@X" onclick="openSidebar('STL_76',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\0.png" id="STL_0" data-flag="@X" onclick="openSidebar('STL_0',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\25.png" id="STL_25" data-flag="@X" onclick="openSidebar('STL_25',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\38.png" id="STL_38" data-flag="@X" onclick="openSidebar('STL_38',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\59.png" id="STL_59" data-flag="@X" onclick="openSidebar('STL_59',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\77.png" id="STL_77" data-flag="@X" onclick="openSidebar('STL_77',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\4.png" id="STL_4" data-flag="@X" onclick="openSidebar('STL_4',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\19.png" id="STL_19" data-flag="@X" onclick="openSidebar('STL_19',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\50.png" id="STL_50" data-flag="@X" onclick="openSidebar('STL_50',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\57.png" id="STL_57" data-flag="@X" onclick="openSidebar('STL_57',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\85.png" id="STL_85" data-flag="@X" onclick="openSidebar('STL_85',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\6.png" id="STL_6" data-flag="@X" onclick="openSidebar('STL_6',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\20.png" id="STL_20" data-flag="@X" onclick="openSidebar('STL_20',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\45.png" id="STL_45" data-flag="@X" onclick="openSidebar('STL_45',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\63.png" id="STL_63" data-flag="@X" onclick="openSidebar('STL_63',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\83.png" id="STL_83" data-flag="@X" onclick="openSidebar('STL_83',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\5.png" id="STL_5" data-flag="@X" onclick="openSidebar('STL_5',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\28.png" id="STL_28" data-flag="@X" onclick="openSidebar('STL_28',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\47.png" id="STL_47" data-flag="@X" onclick="openSidebar('STL_47',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\72.png" id="STL_72" data-flag="@X" onclick="openSidebar('STL_72',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\84.png" id="STL_84" data-flag="@X" onclick="openSidebar('STL_84',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\1.png" id="STL_1" data-flag="@X" onclick="openSidebar('STL_1',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\36.png" id="STL_36" data-flag="@X" onclick="openSidebar('STL_36',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\52.png" id="STL_52" data-flag="@X" onclick="openSidebar('STL_52',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\62.png" id="STL_62" data-flag="@X" onclick="openSidebar('STL_62',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\89.png" id="STL_89" data-flag="@X" onclick="openSidebar('STL_89',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\16.png" id="STL_16" data-flag="@X" onclick="openSidebar('STL_16',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\24.png" id="STL_24" data-flag="@X" onclick="openSidebar('STL_24',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\43.png" id="STL_43" data-flag="@X" onclick="openSidebar('STL_43',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\73.png" id="STL_73" data-flag="@X" onclick="openSidebar('STL_73',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\79.png" id="STL_79" data-flag="@X" onclick="openSidebar('STL_79',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\2.png" id="STL_2" data-flag="@X" onclick="openSidebar('STL_2',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\26.png" id="STL_26" data-flag="@X" onclick="openSidebar('STL_26',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\44.png" id="STL_44" data-flag="@X" onclick="openSidebar('STL_44',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\58.png" id="STL_58" data-flag="@X" onclick="openSidebar('STL_58',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="STL_e" data-flag="@E" onclick="openSidebar('STL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\257.png" id="STL_257" data-flag="@X" onclick="openSidebar('STL_257',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\216.png" id="STL_216" data-flag="@X" onclick="openSidebar('STL_216',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\217.png" id="STL_217" data-flag="@X" onclick="openSidebar('STL_217',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\218.png" id="STL_218" data-flag="@X" onclick="openSidebar('STL_218',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\219.png" id="STL_219" data-flag="@X" onclick="openSidebar('STL_219',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\195.png" id="STL_195" data-flag="@X" onclick="openSidebar('STL_195',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\196.png" id="STL_196" data-flag="@X" onclick="openSidebar('STL_196',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\197.png" id="STL_197" data-flag="@X" onclick="openSidebar('STL_197',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\198.png" id="STL_198" data-flag="@X" onclick="openSidebar('STL_198',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\199.png" id="STL_199" data-flag="@X" onclick="openSidebar('STL_199',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\205.png" id="STL_205" data-flag="@X" onclick="openSidebar('STL_205',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\206.png" id="STL_206" data-flag="@X" onclick="openSidebar('STL_206',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\207.png" id="STL_207" data-flag="@X" onclick="openSidebar('STL_207',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\208.png" id="STL_208" data-flag="@X" onclick="openSidebar('STL_208',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\209.png" id="STL_209" data-flag="@X" onclick="openSidebar('STL_209',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\220.png" id="STL_220" data-flag="@X" onclick="openSidebar('STL_220',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\221.png" id="STL_221" data-flag="@X" onclick="openSidebar('STL_221',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\222.png" id="STL_222" data-flag="@X" onclick="openSidebar('STL_222',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\223.png" id="STL_223" data-flag="@X" onclick="openSidebar('STL_223',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\224.png" id="STL_224" data-flag="@X" onclick="openSidebar('STL_224',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\200.png" id="STL_200" data-flag="@X" onclick="openSidebar('STL_200',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\201.png" id="STL_201" data-flag="@X" onclick="openSidebar('STL_201',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\202.png" id="STL_202" data-flag="@X" onclick="openSidebar('STL_202',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\203.png" id="STL_203" data-flag="@X" onclick="openSidebar('STL_203',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\204.png" id="STL_204" data-flag="@X" onclick="openSidebar('STL_204',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\210.png" id="STL_210" data-flag="@X" onclick="openSidebar('STL_210',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\211.png" id="STL_211" data-flag="@X" onclick="openSidebar('STL_211',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\212.png" id="STL_212" data-flag="@X" onclick="openSidebar('STL_212',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\213.png" id="STL_213" data-flag="@X" onclick="openSidebar('STL_213',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\214.png" id="STL_214" data-flag="@X" onclick="openSidebar('STL_214',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\251.png" id="STL_251" data-flag="@X" onclick="openSidebar('STL_251',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\255.png" id="STL_255" data-flag="@X" onclick="openSidebar('STL_255',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="STL_e" data-flag="@E" onclick="openSidebar('STL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="STL_e" data-flag="@E" onclick="openSidebar('STL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="STL_e" data-flag="@E" onclick="openSidebar('STL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\252.png" id="STL_252" data-flag="@X" onclick="openSidebar('STL_252',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\254.png" id="STL_254" data-flag="@X" onclick="openSidebar('STL_254',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\253.png" id="STL_253" data-flag="@X" onclick="openSidebar('STL_253',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\235.png" id="STL_235" data-flag="@X" onclick="openSidebar('STL_235',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\238.png" id="STL_238" data-flag="@X" onclick="openSidebar('STL_238',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\236.png" id="STL_236" data-flag="@X" onclick="openSidebar('STL_236',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\239.png" id="STL_239" data-flag="@X" onclick="openSidebar('STL_239',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\237.png" id="STL_237" data-flag="@X" onclick="openSidebar('STL_237',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\231.png" id="STL_231" data-flag="@X" onclick="openSidebar('STL_231',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\234.png" id="STL_234" data-flag="@X" onclick="openSidebar('STL_234',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\230.png" id="STL_230" data-flag="@X" onclick="openSidebar('STL_230',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\232.png" id="STL_232" data-flag="@X" onclick="openSidebar('STL_232',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\233.png" id="STL_233" data-flag="@X" onclick="openSidebar('STL_233',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\228.png" id="STL_228" data-flag="@X" onclick="openSidebar('STL_228',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\229.png" id="STL_229" data-flag="@X" onclick="openSidebar('STL_229',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\225.png" id="STL_225" data-flag="@X" onclick="openSidebar('STL_225',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\227.png" id="STL_227" data-flag="@X" onclick="openSidebar('STL_227',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\226.png" id="STL_226" data-flag="@X" onclick="openSidebar('STL_226',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="STL_e" data-flag="@E" onclick="openSidebar('STL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="STL_e" data-flag="@E" onclick="openSidebar('STL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div id="land" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="STL_e" data-flag="@E" onclick="openSidebar('STL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="STL_e" data-flag="@E" onclick="openSidebar('STL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="STL_e" data-flag="@E" onclick="openSidebar('STL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="STL_e" data-flag="@E" onclick="openSidebar('STL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\94.png" id="STL_94" data-flag="@X" onclick="openSidebar('STL_94',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\258.png" id="STL_258" data-flag="@X" onclick="openSidebar('STL_258',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\250.png" id="STL_250" data-flag="@X" onclick="openSidebar('STL_250',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\249.png" id="STL_249" data-flag="@X" onclick="openSidebar('STL_249',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\248.png" id="STL_248" data-flag="@X" onclick="openSidebar('STL_248',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\246.png" id="STL_246" data-flag="@X" onclick="openSidebar('STL_246',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\247.png" id="STL_247" data-flag="@X" onclick="openSidebar('STL_247',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="STL_e" data-flag="@E" onclick="openSidebar('STL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="STL_e" data-flag="@E" onclick="openSidebar('STL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="STL_e" data-flag="@E" onclick="openSidebar('STL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="STL_e" data-flag="@E" onclick="openSidebar('STL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\245.png" id="STL_245" data-flag="@X" onclick="openSidebar('STL_245',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\215.png" id="STL_215" data-flag="@X" onclick="openSidebar('STL_215',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\241.png" id="STL_241" data-flag="@X" onclick="openSidebar('STL_241',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\242.png" id="STL_242" data-flag="@X" onclick="openSidebar('STL_242',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\243.png" id="STL_243" data-flag="@X" onclick="openSidebar('STL_243',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\244.png" id="STL_244" data-flag="@X" onclick="openSidebar('STL_244',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\240.png" id="STL_240" data-flag="@X" onclick="openSidebar('STL_240',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="STL_e" data-flag="@E" onclick="openSidebar('STL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="STL_e" data-flag="@E" onclick="openSidebar('STL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="STL_e" data-flag="@E" onclick="openSidebar('STL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\STL-files\img\256.png" id="STL_256" data-flag="@X" onclick="openSidebar('STL_256',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="STL_e" data-flag="@E" onclick="openSidebar('STL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="STL_e" data-flag="@E" onclick="openSidebar('STL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="STL_e" data-flag="@E" onclick="openSidebar('STL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="STL_e" data-flag="@E" onclick="openSidebar('STL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="STL_er" data-flag="@E" onclick="openSidebar('STL_er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch(rootPath + '/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch(rootPath + '/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1].toLowerCase());
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = rootPath + '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url.pathname + url.search;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url.pathname + url.search;
+			}
+	</script>
+</body>
+</html>

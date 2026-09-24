@@ -1,0 +1,3475 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Relic of Culture",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Artifact — Clue",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/0.png"
+			}
+		},
+		{
+			"name": "Shock Trooper",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Bird Soldier",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/1.png"
+			}
+		},
+		{
+			"name": "Tiyanki Flight",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Alien Jellyfish",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/2.png"
+			}
+		},
+		{
+			"name": "Blorg Tourists",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Fungus Citizen",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/3.png"
+			}
+		},
+		{
+			"name": "Resort World Tourguide",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Citizen",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/4.png"
+			}
+		},
+		{
+			"name": "Riftslugs",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Slug",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/5.png"
+			}
+		},
+		{
+			"name": "Revelation of Power",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/6.png"
+			}
+		},
+		{
+			"name": "Augmented Biker",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Fox Pilot",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/7.png"
+			}
+		},
+		{
+			"name": "Disaster Rescue Team",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Octopus Citizen",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/8.png"
+			}
+		},
+		{
+			"name": "Capture Sphere",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/9.png"
+			}
+		},
+		{
+			"name": "Assisted Archaeologist",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Orc Scientist",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/10.png"
+			}
+		},
+		{
+			"name": "Agent's Dataslate",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/11.png"
+			}
+		},
+		{
+			"name": "Creed Preacher",
+			"rarity": "common",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Arrtifact Creature — Human Cleric",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/12.png"
+			}
+		},
+		{
+			"name": "Disastrous Strike",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Sorcery",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/13.png"
+			}
+		},
+		{
+			"name": "Relic Cataloguer",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Beast Scientist",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/14.png"
+			}
+		},
+		{
+			"name": "Charge Forward",
+			"rarity": "common",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Instant",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/15.png"
+			}
+		},
+		{
+			"name": "Squadron Commander",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/16.png"
+			}
+		},
+		{
+			"name": "Raise Shields",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/17.png"
+			}
+		},
+		{
+			"name": "Hunter-Killer Squad",
+			"rarity": "common",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/18.png"
+			}
+		},
+		{
+			"name": "Relic of Language",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Artifact — Clue",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/19.png"
+			}
+		},
+		{
+			"name": "Rift Shielding",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/20.png"
+			}
+		},
+		{
+			"name": "Digital Diplomats",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Artifact Creature — Advisor",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/21.png"
+			}
+		},
+		{
+			"name": "Eye Drone",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Artifact Creature — Drone",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/22.png"
+			}
+		},
+		{
+			"name": "Machine Introspection",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/23.png"
+			}
+		},
+		{
+			"name": "Synthetic Citizen",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact Creature — Robot Citizen",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/24.png"
+			}
+		},
+		{
+			"name": "Propagandize",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/25.png"
+			}
+		},
+		{
+			"name": "Urban Informants",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Fox Spy",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/26.png"
+			}
+		},
+		{
+			"name": "Engineered Specimen",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Alien Jellyfish",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/27.png"
+			}
+		},
+		{
+			"name": "Sapient Simulation",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact Creature — Advisor",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/28.png"
+			}
+		},
+		{
+			"name": "Calculate",
+			"rarity": "common",
+			"mana_cost": "{X}{U}",
+			"type": "Instant",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/29.png"
+			}
+		},
+		{
+			"name": "Place in Stasis",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/30.png"
+			}
+		},
+		{
+			"name": "Politicize",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/31.png"
+			}
+		},
+		{
+			"name": "Prediction System",
+			"rarity": "common",
+			"mana_cost": "{U}{U}",
+			"type": "Instant",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/32.png"
+			}
+		},
+		{
+			"name": "Ancient Abandonment",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/33.png"
+			}
+		},
+		{
+			"name": "Cadre of Agents",
+			"rarity": "common",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Creature — Lizard Spy",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/34.png"
+			}
+		},
+		{
+			"name": "Mechanized Citizen",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact Creature — Citizen",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/35.png"
+			}
+		},
+		{
+			"name": "Shroud Fears",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/36.png"
+			}
+		},
+		{
+			"name": "Decryption Specialist",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Lobster Spy",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/37.png"
+			}
+		},
+		{
+			"name": "Relic of Anatomy",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Artifact — Clue",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/38.png"
+			}
+		},
+		{
+			"name": "Clone Trooper",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Mutant Soldier",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/39.png"
+			}
+		},
+		{
+			"name": "Corporate Hedonism",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/40.png"
+			}
+		},
+		{
+			"name": "Emergency Augmentation",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/41.png"
+			}
+		},
+		{
+			"name": "Catastrophe Signaler",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Scout",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/42.png"
+			}
+		},
+		{
+			"name": "Target Locked",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/43.png"
+			}
+		},
+		{
+			"name": "Vicious Parasites",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Insect",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/44.png"
+			}
+		},
+		{
+			"name": "Rogue Archaeologist",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/45.png"
+			}
+		},
+		{
+			"name": "Flesh Peddling",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/46.png"
+			}
+		},
+		{
+			"name": "Shroud Communion",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/47.png"
+			}
+		},
+		{
+			"name": "Anomalous Nebula",
+			"rarity": "common",
+			"mana_cost": "{5}{B}",
+			"type": "Creature — Elemental Insect",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/48.png"
+			}
+		},
+		{
+			"name": "Disrupting Influence",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/49.png"
+			}
+		},
+		{
+			"name": "Robotics Specialists",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Fox Artificer",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/50.png"
+			}
+		},
+		{
+			"name": "Arena Brawlers",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Octopus Warrior",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/51.png"
+			}
+		},
+		{
+			"name": "Synaptic Processor",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Artifact — Equipment",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/52.png"
+			}
+		},
+		{
+			"name": "Masked Tracker",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Scout",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/53.png"
+			}
+		},
+		{
+			"name": "Augment Smuggler",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Fish Rogue",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/54.png"
+			}
+		},
+		{
+			"name": "Marauder Duelist",
+			"rarity": "common",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Artifact Creature — Whale Mercenary",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/55.png"
+			}
+		},
+		{
+			"name": "Corporate Administrator",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Fish Advisor",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/56.png"
+			}
+		},
+		{
+			"name": "Relic of Warfare",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Artifact — Clue",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/57.png"
+			}
+		},
+		{
+			"name": "Zrosight",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/58.png"
+			}
+		},
+		{
+			"name": "Military Archaeologists",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Fox Scientist",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/59.png"
+			}
+		},
+		{
+			"name": "Assault Army Officer",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/60.png"
+			}
+		},
+		{
+			"name": "Fleet Assault",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Instant",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/61.png"
+			}
+		},
+		{
+			"name": "Sharp-class Corvette",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/62.png"
+			}
+		},
+		{
+			"name": "Resilient Wildlife",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Alien Insect",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/63.png"
+			}
+		},
+		{
+			"name": "Marauder Crew",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Beast Pirate Mercenary",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/64.png"
+			}
+		},
+		{
+			"name": "Investigation Drone",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact Creature — Drone",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/65.png"
+			}
+		},
+		{
+			"name": "Active Archaeology",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/66.png"
+			}
+		},
+		{
+			"name": "Hostile Wildlife",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Alien Kraken",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/67.png"
+			}
+		},
+		{
+			"name": "Ancient Structure",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Artifact",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/68.png"
+			}
+		},
+		{
+			"name": "Cunning Manuever",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/69.png"
+			}
+		},
+		{
+			"name": "Logistics Officer",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Lizard Advisor",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/70.png"
+			}
+		},
+		{
+			"name": "Curious Synth",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact Creature — Robot",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/71.png"
+			}
+		},
+		{
+			"name": "Scorching Thermophile",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Elemental",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/72.png"
+			}
+		},
+		{
+			"name": "Venture the Ruins",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/73.png"
+			}
+		},
+		{
+			"name": "Furious Envoy",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Beast Advisor",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/74.png"
+			}
+		},
+		{
+			"name": "Cutholoid",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Alien Crab Octopus",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/75.png"
+			}
+		},
+		{
+			"name": "Relic of Botany",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Artifact — Clue",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/76.png"
+			}
+		},
+		{
+			"name": "Return to Nature",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/77.png"
+			}
+		},
+		{
+			"name": "Biotroop Prototype",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Mutant Soldier",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/78.png"
+			}
+		},
+		{
+			"name": "Xenobiology Specialist",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Plant Scientist",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/79.png"
+			}
+		},
+		{
+			"name": "Prosperous Agriworlder",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Lizard Citizen",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/80.png"
+			}
+		},
+		{
+			"name": "Assisted Regeneration",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/81.png"
+			}
+		},
+		{
+			"name": "Biomorphosis",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/82.png"
+			}
+		},
+		{
+			"name": "Sealed Xenomorph",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/83.png"
+			}
+		},
+		{
+			"name": "Titanic Lifeform",
+			"rarity": "common",
+			"mana_cost": "{5}{G}",
+			"type": "Creature — Alien Beast",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/84.png"
+			}
+		},
+		{
+			"name": "Roar of the Wurm",
+			"rarity": "common",
+			"mana_cost": "{6}{G}",
+			"type": "Sorcery",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/85.png"
+			}
+		},
+		{
+			"name": "Monstrous Emergence",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/86.png"
+			}
+		},
+		{
+			"name": "Bioconsumption",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/87.png"
+			}
+		},
+		{
+			"name": "Explosive Growth",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/88.png"
+			}
+		},
+		{
+			"name": "Twisted Weather",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/89.png"
+			}
+		},
+		{
+			"name": "Biocolony",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Alien Horror",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/90.png"
+			}
+		},
+		{
+			"name": "Natural Wonder",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/91.png"
+			}
+		},
+		{
+			"name": "Rampant Growth",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/92.png"
+			}
+		},
+		{
+			"name": "Landblighter",
+			"rarity": "common",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Alien",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/93.png"
+			}
+		},
+		{
+			"name": "Terrain Trawler",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Artifact — Vehicle Lander",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/94.png"
+			}
+		},
+		{
+			"name": "Capture Probe",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/95.png"
+			}
+		},
+		{
+			"name": "Investment Analyst",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Sloth Citizen",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/96.png"
+			}
+		},
+		{
+			"name": "Relic Museum",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/97.png"
+			}
+		},
+		{
+			"name": "Cosmos Harnesser",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Fox Citizen",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/98.png"
+			}
+		},
+		{
+			"name": "Go Derelict",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/99.png"
+			}
+		},
+		{
+			"name": "Arkship Commanders",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/100.png"
+			}
+		},
+		{
+			"name": "War Councilors",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Bird Insect Octopus Soldier",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/101.png"
+			}
+		},
+		{
+			"name": "Hydroponics Unit",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/102.png"
+			}
+		},
+		{
+			"name": "Incessant Protesters",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Octopus Citizen",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/103.png"
+			}
+		},
+		{
+			"name": "Surprise!",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/104.png"
+			}
+		},
+		{
+			"name": "Virtualize",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/105.png"
+			}
+		},
+		{
+			"name": "Neutralization Probe",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/106.png"
+			}
+		},
+		{
+			"name": "Anomalous Crystalloid",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact Creature — Elemental",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/107.png"
+			}
+		},
+		{
+			"name": "Conclave of the Relic",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/108.png"
+			}
+		},
+		{
+			"name": "Cetana's Tempest",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/109.png"
+			}
+		},
+		{
+			"name": "Pathway Mentor",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Dog Monk",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/110.png"
+			}
+		},
+		{
+			"name": "Repair Bay",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/111.png"
+			}
+		},
+		{
+			"name": "Driven Assimilator",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Artifact Creature — Robot",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/112.png"
+			}
+		},
+		{
+			"name": "Lost in the Dark",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/113.png"
+			}
+		},
+		{
+			"name": "Automated Sentry",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Artifact Creature — Drone",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/114.png"
+			}
+		},
+		{
+			"name": "Enhanced Monitor",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact Creature — Troll Soldier",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/115.png"
+			}
+		},
+		{
+			"name": "Future Flight",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/116.png"
+			}
+		},
+		{
+			"name": "Monitoring Probe",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/117.png"
+			}
+		},
+		{
+			"name": "Toxoid Commander",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Dwarf Soldier",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/118.png"
+			}
+		},
+		{
+			"name": "Bioweapon Bombardment",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/119.png"
+			}
+		},
+		{
+			"name": "Entropic Recursion",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/120.png"
+			}
+		},
+		{
+			"name": "Warpling",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Spirit",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/121.png"
+			}
+		},
+		{
+			"name": "Cryogen Awakening",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/122.png"
+			}
+		},
+		{
+			"name": "Marketplace Tourists",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Alien Citizen",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/123.png"
+			}
+		},
+		{
+			"name": "Long Gone",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Instant",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/124.png"
+			}
+		},
+		{
+			"name": "Prophecy of Power",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/125.png"
+			}
+		},
+		{
+			"name": "Cetana's Faithful",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Squid Beast Insect Cleric",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/126.png"
+			}
+		},
+		{
+			"name": "Radiation Pulse",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/127.png"
+			}
+		},
+		{
+			"name": "Scrapship Probe",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/128.png"
+			}
+		},
+		{
+			"name": "Marauder Captain",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{R}",
+			"type": "Creature — Dog Mercenary",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/129.png"
+			}
+		},
+		{
+			"name": "Deep Core Mining",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/130.png"
+			}
+		},
+		{
+			"name": "Space Amoeba",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Germ",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/131.png"
+			}
+		},
+		{
+			"name": "Planetary Bombarder",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/132.png"
+			}
+		},
+		{
+			"name": "Militarist Impetus",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{R}",
+			"type": "Instant",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/133.png"
+			}
+		},
+		{
+			"name": "Colossal Feud",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}",
+			"type": "Instant",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/134.png"
+			}
+		},
+		{
+			"name": "Mechanized Marauder",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Mercenary",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/135.png"
+			}
+		},
+		{
+			"name": "Crystalloid Colony",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Beast",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/136.png"
+			}
+		},
+		{
+			"name": "Bridgelinked Commander",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Orc Soldier",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/137.png"
+			}
+		},
+		{
+			"name": "Psionic Conclave",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Beast Wizard",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/138.png"
+			}
+		},
+		{
+			"name": "Lifeseeding Probe",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/139.png"
+			}
+		},
+		{
+			"name": "Xenocompatibility",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Enchantment",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/140.png"
+			}
+		},
+		{
+			"name": "Baol Specimen",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Plant",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/141.png"
+			}
+		},
+		{
+			"name": "Upon Ancient Ground",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/142.png"
+			}
+		},
+		{
+			"name": "Prosperous Unification",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/143.png"
+			}
+		},
+		{
+			"name": "Bioprobes",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Construct",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/144.png"
+			}
+		},
+		{
+			"name": "Biological Archive",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/145.png"
+			}
+		},
+		{
+			"name": "Toxoid Trader",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Mutant Citizen",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/146.png"
+			}
+		},
+		{
+			"name": "Ruins Trawler",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Creature — Bird Scout",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/147.png"
+			}
+		},
+		{
+			"name": "Herd Marshaller",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Bird Citizen",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/148.png"
+			}
+		},
+		{
+			"name": "Idyll Guardian",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Insect Druid",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/149.png"
+			}
+		},
+		{
+			"name": "Synthetic Ascension",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/150.png"
+			}
+		},
+		{
+			"name": "Planetary Seal",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/151.png"
+			}
+		},
+		{
+			"name": "VIR, Structural Engine",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Artifact Creature — Drone",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/152.png"
+			}
+		},
+		{
+			"name": "Solar Flare",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/153.png"
+			}
+		},
+		{
+			"name": "Cetana's Command",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/154.png"
+			}
+		},
+		{
+			"name": "The Khan's Throne",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Artifact",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/155.png"
+			}
+		},
+		{
+			"name": "Astral Wanderer",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Creature — Alien Jellyfish",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/156.png"
+			}
+		},
+		{
+			"name": "Quantum Catapult",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/157.png"
+			}
+		},
+		{
+			"name": "Multi-Dimensional Analysis",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/158.png"
+			}
+		},
+		{
+			"name": "Foreign Asset",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Alien Spy",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/159.png"
+			}
+		},
+		{
+			"name": "Hivemind Ascension",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/160.png"
+			}
+		},
+		{
+			"name": "Augmented One",
+			"rarity": "rare",
+			"mana_cost": "{X}{U}{U}{U}",
+			"type": "Artifact Creature — Citizen",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/161.png"
+			}
+		},
+		{
+			"name": "VIR, Research Engine",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Artifact Creature — Drone",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/162.png"
+			}
+		},
+		{
+			"name": "Augmented Engineer",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact Creature — Lizard Artificer",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/163.png"
+			}
+		},
+		{
+			"name": "Deepspace Citadel",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/164.png"
+			}
+		},
+		{
+			"name": "Psionic Ascension",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/165.png"
+			}
+		},
+		{
+			"name": "Zroni Precursor",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Alien",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/166.png"
+			}
+		},
+		{
+			"name": "Hunted Specimen",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Alien Fish",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/167.png"
+			}
+		},
+		{
+			"name": "Shroud's Bargain",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/168.png"
+			}
+		},
+		{
+			"name": "The Megamall",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Artifact",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/169.png"
+			}
+		},
+		{
+			"name": "Stellar Devourer",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Insect",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/170.png"
+			}
+		},
+		{
+			"name": "Arc Furnace",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/171.png"
+			}
+		},
+		{
+			"name": "Thermal Ascension",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/172.png"
+			}
+		},
+		{
+			"name": "Pirate Galleon",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/173.png"
+			}
+		},
+		{
+			"name": "Bioengineered Pup",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Creature — Mutant",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/174.png"
+			}
+		},
+		{
+			"name": "Biogenetic Behemoth",
+			"rarity": "rare",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Creature — Mutant Dragon",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/175.png"
+			}
+		},
+		{
+			"name": "Twisted Moon",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/176.png"
+			}
+		},
+		{
+			"name": "VIR, Expansion Engine",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Artifact Creature — Drone",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/177.png"
+			}
+		},
+		{
+			"name": "Biological Ascension",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/178.png"
+			}
+		},
+		{
+			"name": "Colony Ship",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/179.png"
+			}
+		},
+		{
+			"name": "Voidworm Larva",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Alien Wurm",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/180.png"
+			}
+		},
+		{
+			"name": "Evolving Lineage",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/181.png"
+			}
+		},
+		{
+			"name": "First Contact Protocol",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/182.png"
+			}
+		},
+		{
+			"name": "Sights Unseen",
+			"rarity": "rare",
+			"mana_cost": "{X}{G}",
+			"type": "Instant",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/183.png"
+			}
+		},
+		{
+			"name": "Hyperlane Charter",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Lizard Scout",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/184.png"
+			}
+		},
+		{
+			"name": "Trophies of Glory",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/185.png"
+			}
+		},
+		{
+			"name": "Utter Annihilation",
+			"rarity": "mythic",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/186.png"
+			}
+		},
+		{
+			"name": "Synaptic Lathe",
+			"rarity": "mythic",
+			"mana_cost": "{4}{U}",
+			"type": "Artifact",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/187.png"
+			}
+		},
+		{
+			"name": "Readied L-Gate",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/188.png"
+			}
+		},
+		{
+			"name": "The End of the Cycle",
+			"rarity": "mythic",
+			"mana_cost": "{B}{B}{B}",
+			"type": "Legendary Enchantment",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/189.png"
+			}
+		},
+		{
+			"name": "Stellar Collapse",
+			"rarity": "mythic",
+			"mana_cost": "{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/190.png"
+			}
+		},
+		{
+			"name": "Shroud Breacher",
+			"rarity": "mythic",
+			"mana_cost": "{X}{3}{R}",
+			"type": "Artifact",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/191.png"
+			}
+		},
+		{
+			"name": "Leviathan's Arrival",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/192.png"
+			}
+		},
+		{
+			"name": "Perfected Vatsoldier",
+			"rarity": "mythic",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Mutant",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/193.png"
+			}
+		},
+		{
+			"name": "Voidworm Troika",
+			"rarity": "mythic",
+			"mana_cost": "{3}{G}{G}{G}",
+			"type": "Creature — Alien Wurm",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/194.png"
+			}
+		},
+		{
+			"name": "Cybernetic Creeds",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Artifact Creature — Cleric",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/195.png"
+			}
+		},
+		{
+			"name": "Deputy Coordinator",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Creature — Human Advisor",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/196.png"
+			}
+		},
+		{
+			"name": "Overtuned",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Mutant",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/197.png"
+			}
+		},
+		{
+			"name": "Here Be Dragons",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Sorcery",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/198.png"
+			}
+		},
+		{
+			"name": "Cadre of Diplomats",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Creature — Lizard Fish Advisor",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/199.png"
+			}
+		},
+		{
+			"name": "Necromancer Cadre",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{B}",
+			"type": "Creature — Human Scientist",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/200.png"
+			}
+		},
+		{
+			"name": "Psionic Troopers",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{R}",
+			"type": "Creature — Devil Monk",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/201.png"
+			}
+		},
+		{
+			"name": "Scrapyard Venture",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Sorcery",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/202.png"
+			}
+		},
+		{
+			"name": "Twinned Virtualist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Creature — Giraffe Scientist",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/203.png"
+			}
+		},
+		{
+			"name": "Bioprobe Troop Carrier",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{U}",
+			"type": "Creature — Mutant",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/204.png"
+			}
+		},
+		{
+			"name": "Machine Decree",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W/U}",
+			"type": "Instant",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/205.png"
+			}
+		},
+		{
+			"name": "Imperial Machinations",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U/B}",
+			"type": "Sorcery",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/206.png"
+			}
+		},
+		{
+			"name": "Price of War",
+			"rarity": "uncommon",
+			"mana_cost": "{B/R}",
+			"type": "Sorcery",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/207.png"
+			}
+		},
+		{
+			"name": "Bioship Probes",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{R/G}{R/G}",
+			"type": "Creature — Drone",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/208.png"
+			}
+		},
+		{
+			"name": "Nomad Arkship",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G/W}{G/W}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/209.png"
+			}
+		},
+		{
+			"name": "MSI Uplift Ambassador",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W/B}{W/B}",
+			"type": "Creature — Elf Advisor",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/210.png"
+			}
+		},
+		{
+			"name": "Research Station",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U/R}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/211.png"
+			}
+		},
+		{
+			"name": "Spawning Structure",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B/G}",
+			"type": "Artifact Creature — Egg",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/212.png"
+			}
+		},
+		{
+			"name": "Stormchaser Cadre",
+			"rarity": "uncommon",
+			"mana_cost": "{R/W}",
+			"type": "Creature — Elf Scout Pilot",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/213.png"
+			}
+		},
+		{
+			"name": "Federation Bureaucrats",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G/U}",
+			"type": "Creature — Beast Advisor",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/214.png"
+			}
+		},
+		{
+			"name": "Ecumenopolis",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Artifact Land — Planet",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/215.png"
+			}
+		},
+		{
+			"name": "Kai-Sha, Shadow Broker",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Artifact Creature — Advisor",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/216.png"
+			}
+		},
+		{
+			"name": "Ouw'ron, Endbringer",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Legendary Creature — Mutant Bird Cleric",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/217.png"
+			}
+		},
+		{
+			"name": "Reth, Hell's Heart",
+			"rarity": "rare",
+			"mana_cost": "{X}{R}{G}",
+			"type": "Legendary Creature — Cat Ranger",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/218.png"
+			}
+		},
+		{
+			"name": "Unit Solace",
+			"rarity": "rare",
+			"mana_cost": "{G}{W}",
+			"type": "Legendary Artifact Creature — Citizen",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/219.png"
+			}
+		},
+		{
+			"name": "The Nameless Apostle",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{B}",
+			"type": "Legendary Artifact Creature — Cleric",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/220.png"
+			}
+		},
+		{
+			"name": "Borin, Brilliant Shipwright",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Creature — Beast Artificer",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/221.png"
+			}
+		},
+		{
+			"name": "Th'aal Hask'Guron",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{G}",
+			"type": "Legendary Creature — Giant Warrior",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/222.png"
+			}
+		},
+		{
+			"name": "Skrand Sharpbeak",
+			"rarity": "rare",
+			"mana_cost": "{R}{W}",
+			"type": "Legendary Creature — Bird Pilot",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/223.png"
+			}
+		},
+		{
+			"name": "Astrocreator Azaryn",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Legendary Creature — Plant Scientist",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/224.png"
+			}
+		},
+		{
+			"name": "Planetary Datacenter",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/225.png"
+			}
+		},
+		{
+			"name": "Starbase",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/226.png"
+			}
+		},
+		{
+			"name": "Star Chart",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Map",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/227.png"
+			}
+		},
+		{
+			"name": "Exploration Synth",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Robot Scout",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/228.png"
+			}
+		},
+		{
+			"name": "Labor Synth",
+			"rarity": "common",
+			"mana_cost": "{5}",
+			"type": "Artifact Creature — Robot Citizen",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/229.png"
+			}
+		},
+		{
+			"name": "Caravaneer Relinquary",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/230.png"
+			}
+		},
+		{
+			"name": "Advisor Synth",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Robot Advisor",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/231.png"
+			}
+		},
+		{
+			"name": "Research Drone",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact Creature — Clue Drone",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/232.png"
+			}
+		},
+		{
+			"name": "Uplift Monument",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/233.png"
+			}
+		},
+		{
+			"name": "Agriculture Drone",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Drone",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/234.png"
+			}
+		},
+		{
+			"name": "Cryptic Monolith",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/235.png"
+			}
+		},
+		{
+			"name": "Galactic Chart",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/236.png"
+			}
+		},
+		{
+			"name": "Psionic Suppressor",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Wall",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/237.png"
+			}
+		},
+		{
+			"name": "Fusion Reactor",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/238.png"
+			}
+		},
+		{
+			"name": "Hyperrelay",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/239.png"
+			}
+		},
+		{
+			"name": "Terramorphic Expanse",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/240.png"
+			}
+		},
+		{
+			"name": "Buried Ruin",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/241.png"
+			}
+		},
+		{
+			"name": "Consolidated Resource",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/242.png"
+			}
+		},
+		{
+			"name": "Deserted Remains",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Desert",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/243.png"
+			}
+		},
+		{
+			"name": "Gaian Idyll",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/244.png"
+			}
+		},
+		{
+			"name": "Astral Rift",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/245.png"
+			}
+		},
+		{
+			"name": "Arkship Paradise",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/246.png"
+			}
+		},
+		{
+			"name": "Advanced Metropolis",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/247.png"
+			}
+		},
+		{
+			"name": "Storm Formation Zone",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/248.png"
+			}
+		},
+		{
+			"name": "Dusty Digsite",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/249.png"
+			}
+		},
+		{
+			"name": "Monitored Habitation Complex",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/250.png"
+			}
+		},
+		{
+			"name": "Cetana, Synthetic Queen",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{U}{B}",
+			"type": "Legendary Artifact Creature — Scientist Noble",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/251.png"
+			}
+		},
+		{
+			"name": "The Aetherophasic Engine",
+			"rarity": "mythic",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact — Spacecraft",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/252.png"
+			}
+		},
+		{
+			"name": "The Infinity Machine",
+			"rarity": "mythic",
+			"mana_cost": "{10}",
+			"type": "Legendary Artifact Creature — Scientist",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/253.png"
+			}
+		},
+		{
+			"name": "Captain Ness' Treasure",
+			"rarity": "mythic",
+			"mana_cost": "{7}",
+			"type": "Legendary Artifact",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/254.png"
+			}
+		},
+		{
+			"name": "Mindwarden Elder",
+			"rarity": "mythic",
+			"mana_cost": "{2/G}{2/W}{2/U}",
+			"type": "Creature — Mutant Soldier",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/255.png"
+			}
+		},
+		{
+			"name": "Draft Archetypes",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/256.png"
+			}
+		},
+		{
+			"name": "Keides, Scion of Vagros",
+			"rarity": "rare",
+			"mana_cost": "{W}{U}",
+			"type": "Legendary Creature — Mutant Advisor",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/257.png"
+			}
+		},
+		{
+			"name": "The Vagrosian Ruins",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://-thenewestgear-stack-.github.io/sets/STL-files/img/258.png"
+			}
+		}
+	]
+
+[rare(1)]
+	2 Synthetic Ascension
+	2 Planetary Seal
+	2 VIR, Structural Engine
+	2 Solar Flare
+	2 Cetana's Command
+	2 The Khan's Throne
+	2 Astral Wanderer
+	2 Quantum Catapult
+	2 Multi-Dimensional Analysis
+	2 Foreign Asset
+	2 Hivemind Ascension
+	2 Augmented One
+	2 VIR, Research Engine
+	2 Augmented Engineer
+	2 Deepspace Citadel
+	2 Psionic Ascension
+	2 Zroni Precursor
+	2 Hunted Specimen
+	2 Shroud's Bargain
+	2 The Megamall
+	2 Stellar Devourer
+	2 Arc Furnace
+	2 Thermal Ascension
+	2 Pirate Galleon
+	2 Bioengineered Pup
+	2 Biogenetic Behemoth
+	2 Twisted Moon
+	2 VIR, Expansion Engine
+	2 Biological Ascension
+	2 Colony Ship
+	2 Voidworm Larva
+	2 Evolving Lineage
+	2 First Contact Protocol
+	2 Sights Unseen
+	2 Hyperlane Charter
+	1 Trophies of Glory
+	1 Utter Annihilation
+	1 Synaptic Lathe
+	1 Readied L-Gate
+	1 The End of the Cycle
+	1 Stellar Collapse
+	1 Shroud Breacher
+	1 Leviathan's Arrival
+	1 Perfected Vatsoldier
+	1 Voidworm Troika
+	2 Ecumenopolis
+	2 Kai-Sha, Shadow Broker
+	2 Ouw'ron, Endbringer
+	2 Reth, Hell's Heart
+	2 Unit Solace
+	2 The Nameless Apostle
+	2 Borin, Brilliant Shipwright
+	2 Th'aal Hask'Guron
+	2 Skrand Sharpbeak
+	2 Astrocreator Azaryn
+	2 Cryptic Monolith
+	2 Galactic Chart
+	2 Psionic Suppressor
+	2 Fusion Reactor
+	2 Hyperrelay
+	2 Astral Rift
+	2 Arkship Paradise
+	2 Advanced Metropolis
+	2 Storm Formation Zone
+	2 Dusty Digsite
+	2 Monitored Habitation Complex
+	1 Cetana, Synthetic Queen
+	1 The Aetherophasic Engine
+	1 The Infinity Machine
+	1 Captain Ness' Treasure
+	1 Mindwarden Elder
+	2 Keides, Scion of Vagros
+	2 The Vagrosian Ruins
+[uncommon(3)]
+	4 Capture Probe
+	4 Investment Analyst
+	4 Relic Museum
+	4 Cosmos Harnesser
+	4 Go Derelict
+	4 Arkship Commanders
+	4 War Councilors
+	4 Hydroponics Unit
+	4 Incessant Protesters
+	4 Surprise!
+	4 Virtualize
+	4 Neutralization Probe
+	4 Anomalous Crystalloid
+	4 Conclave of the Relic
+	4 Cetana's Tempest
+	4 Pathway Mentor
+	4 Repair Bay
+	4 Driven Assimilator
+	4 Lost in the Dark
+	4 Automated Sentry
+	4 Enhanced Monitor
+	4 Future Flight
+	4 Monitoring Probe
+	4 Toxoid Commander
+	4 Bioweapon Bombardment
+	4 Entropic Recursion
+	4 Warpling
+	4 Cryogen Awakening
+	4 Marketplace Tourists
+	4 Long Gone
+	4 Prophecy of Power
+	4 Cetana's Faithful
+	4 Radiation Pulse
+	4 Scrapship Probe
+	4 Marauder Captain
+	4 Deep Core Mining
+	4 Space Amoeba
+	4 Planetary Bombarder
+	4 Militarist Impetus
+	4 Colossal Feud
+	4 Mechanized Marauder
+	4 Crystalloid Colony
+	4 Bridgelinked Commander
+	4 Psionic Conclave
+	4 Lifeseeding Probe
+	4 Xenocompatibility
+	4 Baol Specimen
+	4 Upon Ancient Ground
+	4 Prosperous Unification
+	4 Bioprobes
+	4 Biological Archive
+	4 Toxoid Trader
+	4 Ruins Trawler
+	4 Herd Marshaller
+	4 Idyll Guardian
+	4 Cybernetic Creeds
+	4 Deputy Coordinator
+	4 Overtuned
+	4 Here Be Dragons
+	4 Cadre of Diplomats
+	4 Necromancer Cadre
+	4 Psionic Troopers
+	4 Scrapyard Venture
+	4 Twinned Virtualist
+	4 Bioprobe Troop Carrier
+	4 Machine Decree
+	4 Imperial Machinations
+	4 Price of War
+	4 Bioship Probes
+	4 Nomad Arkship
+	4 MSI Uplift Ambassador
+	4 Research Station
+	4 Spawning Structure
+	4 Stormchaser Cadre
+	4 Federation Bureaucrats
+	4 Caravaneer Relinquary
+	4 Advisor Synth
+	4 Research Drone
+	4 Uplift Monument
+	4 Agriculture Drone
+	4 Buried Ruin
+	4 Consolidated Resource
+	4 Deserted Remains
+	4 Gaian Idyll
+[common(6)]
+	8 Relic of Culture
+	8 Shock Trooper
+	8 Tiyanki Flight
+	8 Blorg Tourists
+	8 Resort World Tourguide
+	8 Riftslugs
+	8 Revelation of Power
+	8 Augmented Biker
+	8 Disaster Rescue Team
+	8 Capture Sphere
+	8 Assisted Archaeologist
+	8 Agent's Dataslate
+	8 Creed Preacher
+	8 Disastrous Strike
+	8 Relic Cataloguer
+	8 Charge Forward
+	8 Squadron Commander
+	8 Raise Shields
+	8 Hunter-Killer Squad
+	8 Relic of Language
+	8 Rift Shielding
+	8 Digital Diplomats
+	8 Eye Drone
+	8 Machine Introspection
+	8 Synthetic Citizen
+	8 Propagandize
+	8 Urban Informants
+	8 Engineered Specimen
+	8 Sapient Simulation
+	8 Calculate
+	8 Place in Stasis
+	8 Politicize
+	8 Prediction System
+	8 Ancient Abandonment
+	8 Cadre of Agents
+	8 Mechanized Citizen
+	8 Shroud Fears
+	8 Decryption Specialist
+	8 Relic of Anatomy
+	8 Clone Trooper
+	8 Corporate Hedonism
+	8 Emergency Augmentation
+	8 Catastrophe Signaler
+	8 Target Locked
+	8 Vicious Parasites
+	8 Rogue Archaeologist
+	8 Flesh Peddling
+	8 Shroud Communion
+	8 Anomalous Nebula
+	8 Disrupting Influence
+	8 Robotics Specialists
+	8 Arena Brawlers
+	8 Synaptic Processor
+	8 Masked Tracker
+	8 Augment Smuggler
+	8 Marauder Duelist
+	8 Corporate Administrator
+	8 Relic of Warfare
+	8 Zrosight
+	8 Military Archaeologists
+	8 Assault Army Officer
+	8 Fleet Assault
+	8 Sharp-class Corvette
+	8 Resilient Wildlife
+	8 Marauder Crew
+	8 Investigation Drone
+	8 Active Archaeology
+	8 Hostile Wildlife
+	8 Ancient Structure
+	8 Cunning Manuever
+	8 Logistics Officer
+	8 Curious Synth
+	8 Scorching Thermophile
+	8 Venture the Ruins
+	8 Furious Envoy
+	8 Cutholoid
+	8 Relic of Botany
+	8 Return to Nature
+	8 Biotroop Prototype
+	8 Xenobiology Specialist
+	8 Prosperous Agriworlder
+	8 Assisted Regeneration
+	8 Biomorphosis
+	8 Sealed Xenomorph
+	8 Titanic Lifeform
+	8 Roar of the Wurm
+	8 Monstrous Emergence
+	8 Bioconsumption
+	8 Explosive Growth
+	8 Twisted Weather
+	8 Biocolony
+	8 Natural Wonder
+	8 Rampant Growth
+	8 Landblighter
+	8 Terrain Trawler
+	8 Planetary Datacenter
+	8 Starbase
+	8 Star Chart
+	8 Exploration Synth
+	8 Labor Synth
+	8 Terramorphic Expanse
+[common | masterpiece(1)]
+	8 Relic of Culture
+	8 Shock Trooper
+	8 Tiyanki Flight
+	8 Blorg Tourists
+	8 Resort World Tourguide
+	8 Riftslugs
+	8 Revelation of Power
+	8 Augmented Biker
+	8 Disaster Rescue Team
+	8 Capture Sphere
+	8 Assisted Archaeologist
+	8 Agent's Dataslate
+	8 Creed Preacher
+	8 Disastrous Strike
+	8 Relic Cataloguer
+	8 Charge Forward
+	8 Squadron Commander
+	8 Raise Shields
+	8 Hunter-Killer Squad
+	8 Relic of Language
+	8 Rift Shielding
+	8 Digital Diplomats
+	8 Eye Drone
+	8 Machine Introspection
+	8 Synthetic Citizen
+	8 Propagandize
+	8 Urban Informants
+	8 Engineered Specimen
+	8 Sapient Simulation
+	8 Calculate
+	8 Place in Stasis
+	8 Politicize
+	8 Prediction System
+	8 Ancient Abandonment
+	8 Cadre of Agents
+	8 Mechanized Citizen
+	8 Shroud Fears
+	8 Decryption Specialist
+	8 Relic of Anatomy
+	8 Clone Trooper
+	8 Corporate Hedonism
+	8 Emergency Augmentation
+	8 Catastrophe Signaler
+	8 Target Locked
+	8 Vicious Parasites
+	8 Rogue Archaeologist
+	8 Flesh Peddling
+	8 Shroud Communion
+	8 Anomalous Nebula
+	8 Disrupting Influence
+	8 Robotics Specialists
+	8 Arena Brawlers
+	8 Synaptic Processor
+	8 Masked Tracker
+	8 Augment Smuggler
+	8 Marauder Duelist
+	8 Corporate Administrator
+	8 Relic of Warfare
+	8 Zrosight
+	8 Military Archaeologists
+	8 Assault Army Officer
+	8 Fleet Assault
+	8 Sharp-class Corvette
+	8 Resilient Wildlife
+	8 Marauder Crew
+	8 Investigation Drone
+	8 Active Archaeology
+	8 Hostile Wildlife
+	8 Ancient Structure
+	8 Cunning Manuever
+	8 Logistics Officer
+	8 Curious Synth
+	8 Scorching Thermophile
+	8 Venture the Ruins
+	8 Furious Envoy
+	8 Cutholoid
+	8 Relic of Botany
+	8 Return to Nature
+	8 Biotroop Prototype
+	8 Xenobiology Specialist
+	8 Prosperous Agriworlder
+	8 Assisted Regeneration
+	8 Biomorphosis
+	8 Sealed Xenomorph
+	8 Titanic Lifeform
+	8 Roar of the Wurm
+	8 Monstrous Emergence
+	8 Bioconsumption
+	8 Explosive Growth
+	8 Twisted Weather
+	8 Biocolony
+	8 Natural Wonder
+	8 Rampant Growth
+	8 Landblighter
+	8 Terrain Trawler
+	8 Planetary Datacenter
+	8 Starbase
+	8 Star Chart
+	8 Exploration Synth
+	8 Labor Synth
+	8 Terramorphic Expanse
+[foil(1)]
+	12 Relic of Culture
+	12 Shock Trooper
+	12 Tiyanki Flight
+	12 Blorg Tourists
+	12 Resort World Tourguide
+	12 Riftslugs
+	12 Revelation of Power
+	12 Augmented Biker
+	12 Disaster Rescue Team
+	12 Capture Sphere
+	12 Assisted Archaeologist
+	12 Agent's Dataslate
+	12 Creed Preacher
+	12 Disastrous Strike
+	12 Relic Cataloguer
+	12 Charge Forward
+	12 Squadron Commander
+	12 Raise Shields
+	12 Hunter-Killer Squad
+	12 Relic of Language
+	12 Rift Shielding
+	12 Digital Diplomats
+	12 Eye Drone
+	12 Machine Introspection
+	12 Synthetic Citizen
+	12 Propagandize
+	12 Urban Informants
+	12 Engineered Specimen
+	12 Sapient Simulation
+	12 Calculate
+	12 Place in Stasis
+	12 Politicize
+	12 Prediction System
+	12 Ancient Abandonment
+	12 Cadre of Agents
+	12 Mechanized Citizen
+	12 Shroud Fears
+	12 Decryption Specialist
+	12 Relic of Anatomy
+	12 Clone Trooper
+	12 Corporate Hedonism
+	12 Emergency Augmentation
+	12 Catastrophe Signaler
+	12 Target Locked
+	12 Vicious Parasites
+	12 Rogue Archaeologist
+	12 Flesh Peddling
+	12 Shroud Communion
+	12 Anomalous Nebula
+	12 Disrupting Influence
+	12 Robotics Specialists
+	12 Arena Brawlers
+	12 Synaptic Processor
+	12 Masked Tracker
+	12 Augment Smuggler
+	12 Marauder Duelist
+	12 Corporate Administrator
+	12 Relic of Warfare
+	12 Zrosight
+	12 Military Archaeologists
+	12 Assault Army Officer
+	12 Fleet Assault
+	12 Sharp-class Corvette
+	12 Resilient Wildlife
+	12 Marauder Crew
+	12 Investigation Drone
+	12 Active Archaeology
+	12 Hostile Wildlife
+	12 Ancient Structure
+	12 Cunning Manuever
+	12 Logistics Officer
+	12 Curious Synth
+	12 Scorching Thermophile
+	12 Venture the Ruins
+	12 Furious Envoy
+	12 Cutholoid
+	12 Relic of Botany
+	12 Return to Nature
+	12 Biotroop Prototype
+	12 Xenobiology Specialist
+	12 Prosperous Agriworlder
+	12 Assisted Regeneration
+	12 Biomorphosis
+	12 Sealed Xenomorph
+	12 Titanic Lifeform
+	12 Roar of the Wurm
+	12 Monstrous Emergence
+	12 Bioconsumption
+	12 Explosive Growth
+	12 Twisted Weather
+	12 Biocolony
+	12 Natural Wonder
+	12 Rampant Growth
+	12 Landblighter
+	12 Terrain Trawler
+	6 Capture Probe
+	6 Investment Analyst
+	6 Relic Museum
+	6 Cosmos Harnesser
+	6 Go Derelict
+	6 Arkship Commanders
+	6 War Councilors
+	6 Hydroponics Unit
+	6 Incessant Protesters
+	6 Surprise!
+	6 Virtualize
+	6 Neutralization Probe
+	6 Anomalous Crystalloid
+	6 Conclave of the Relic
+	6 Cetana's Tempest
+	6 Pathway Mentor
+	6 Repair Bay
+	6 Driven Assimilator
+	6 Lost in the Dark
+	6 Automated Sentry
+	6 Enhanced Monitor
+	6 Future Flight
+	6 Monitoring Probe
+	6 Toxoid Commander
+	6 Bioweapon Bombardment
+	6 Entropic Recursion
+	6 Warpling
+	6 Cryogen Awakening
+	6 Marketplace Tourists
+	6 Long Gone
+	6 Prophecy of Power
+	6 Cetana's Faithful
+	6 Radiation Pulse
+	6 Scrapship Probe
+	6 Marauder Captain
+	6 Deep Core Mining
+	6 Space Amoeba
+	6 Planetary Bombarder
+	6 Militarist Impetus
+	6 Colossal Feud
+	6 Mechanized Marauder
+	6 Crystalloid Colony
+	6 Bridgelinked Commander
+	6 Psionic Conclave
+	6 Lifeseeding Probe
+	6 Xenocompatibility
+	6 Baol Specimen
+	6 Upon Ancient Ground
+	6 Prosperous Unification
+	6 Bioprobes
+	6 Biological Archive
+	6 Toxoid Trader
+	6 Ruins Trawler
+	6 Herd Marshaller
+	6 Idyll Guardian
+	2 Synthetic Ascension
+	2 Planetary Seal
+	2 VIR, Structural Engine
+	2 Solar Flare
+	2 Cetana's Command
+	2 The Khan's Throne
+	2 Astral Wanderer
+	2 Quantum Catapult
+	2 Multi-Dimensional Analysis
+	2 Foreign Asset
+	2 Hivemind Ascension
+	2 Augmented One
+	2 VIR, Research Engine
+	2 Augmented Engineer
+	2 Deepspace Citadel
+	2 Psionic Ascension
+	2 Zroni Precursor
+	2 Hunted Specimen
+	2 Shroud's Bargain
+	2 The Megamall
+	2 Stellar Devourer
+	2 Arc Furnace
+	2 Thermal Ascension
+	2 Pirate Galleon
+	2 Bioengineered Pup
+	2 Biogenetic Behemoth
+	2 Twisted Moon
+	2 VIR, Expansion Engine
+	2 Biological Ascension
+	2 Colony Ship
+	2 Voidworm Larva
+	2 Evolving Lineage
+	2 First Contact Protocol
+	2 Sights Unseen
+	2 Hyperlane Charter
+	1 Trophies of Glory
+	1 Utter Annihilation
+	1 Synaptic Lathe
+	1 Readied L-Gate
+	1 The End of the Cycle
+	1 Stellar Collapse
+	1 Shroud Breacher
+	1 Leviathan's Arrival
+	1 Perfected Vatsoldier
+	1 Voidworm Troika
+	6 Cybernetic Creeds
+	6 Deputy Coordinator
+	6 Overtuned
+	6 Here Be Dragons
+	6 Cadre of Diplomats
+	6 Necromancer Cadre
+	6 Psionic Troopers
+	6 Scrapyard Venture
+	6 Twinned Virtualist
+	6 Bioprobe Troop Carrier
+	6 Machine Decree
+	6 Imperial Machinations
+	6 Price of War
+	6 Bioship Probes
+	6 Nomad Arkship
+	6 MSI Uplift Ambassador
+	6 Research Station
+	6 Spawning Structure
+	6 Stormchaser Cadre
+	6 Federation Bureaucrats
+	2 Ecumenopolis
+	2 Kai-Sha, Shadow Broker
+	2 Ouw'ron, Endbringer
+	2 Reth, Hell's Heart
+	2 Unit Solace
+	2 The Nameless Apostle
+	2 Borin, Brilliant Shipwright
+	2 Th'aal Hask'Guron
+	2 Skrand Sharpbeak
+	2 Astrocreator Azaryn
+	12 Planetary Datacenter
+	12 Starbase
+	12 Star Chart
+	12 Exploration Synth
+	12 Labor Synth
+	6 Caravaneer Relinquary
+	6 Advisor Synth
+	6 Research Drone
+	6 Uplift Monument
+	6 Agriculture Drone
+	2 Cryptic Monolith
+	2 Galactic Chart
+	2 Psionic Suppressor
+	2 Fusion Reactor
+	2 Hyperrelay
+	12 Terramorphic Expanse
+	6 Buried Ruin
+	6 Consolidated Resource
+	6 Deserted Remains
+	6 Gaian Idyll
+	2 Astral Rift
+	2 Arkship Paradise
+	2 Advanced Metropolis
+	2 Storm Formation Zone
+	2 Dusty Digsite
+	2 Monitored Habitation Complex
+	1 Cetana, Synthetic Queen
+	1 The Aetherophasic Engine
+	1 The Infinity Machine
+	1 Captain Ness' Treasure
+	1 Mindwarden Elder
+	2 Keides, Scion of Vagros
+	2 The Vagrosian Ruins
+[wildcard(1)]
+	6 Relic of Culture
+	6 Shock Trooper
+	6 Tiyanki Flight
+	6 Blorg Tourists
+	6 Resort World Tourguide
+	6 Riftslugs
+	6 Revelation of Power
+	6 Augmented Biker
+	6 Disaster Rescue Team
+	6 Capture Sphere
+	6 Assisted Archaeologist
+	6 Agent's Dataslate
+	6 Creed Preacher
+	6 Disastrous Strike
+	6 Relic Cataloguer
+	6 Charge Forward
+	6 Squadron Commander
+	6 Raise Shields
+	6 Hunter-Killer Squad
+	6 Relic of Language
+	6 Rift Shielding
+	6 Digital Diplomats
+	6 Eye Drone
+	6 Machine Introspection
+	6 Synthetic Citizen
+	6 Propagandize
+	6 Urban Informants
+	6 Engineered Specimen
+	6 Sapient Simulation
+	6 Calculate
+	6 Place in Stasis
+	6 Politicize
+	6 Prediction System
+	6 Ancient Abandonment
+	6 Cadre of Agents
+	6 Mechanized Citizen
+	6 Shroud Fears
+	6 Decryption Specialist
+	6 Relic of Anatomy
+	6 Clone Trooper
+	6 Corporate Hedonism
+	6 Emergency Augmentation
+	6 Catastrophe Signaler
+	6 Target Locked
+	6 Vicious Parasites
+	6 Rogue Archaeologist
+	6 Flesh Peddling
+	6 Shroud Communion
+	6 Anomalous Nebula
+	6 Disrupting Influence
+	6 Robotics Specialists
+	6 Arena Brawlers
+	6 Synaptic Processor
+	6 Masked Tracker
+	6 Augment Smuggler
+	6 Marauder Duelist
+	6 Corporate Administrator
+	6 Relic of Warfare
+	6 Zrosight
+	6 Military Archaeologists
+	6 Assault Army Officer
+	6 Fleet Assault
+	6 Sharp-class Corvette
+	6 Resilient Wildlife
+	6 Marauder Crew
+	6 Investigation Drone
+	6 Active Archaeology
+	6 Hostile Wildlife
+	6 Ancient Structure
+	6 Cunning Manuever
+	6 Logistics Officer
+	6 Curious Synth
+	6 Scorching Thermophile
+	6 Venture the Ruins
+	6 Furious Envoy
+	6 Cutholoid
+	6 Relic of Botany
+	6 Return to Nature
+	6 Biotroop Prototype
+	6 Xenobiology Specialist
+	6 Prosperous Agriworlder
+	6 Assisted Regeneration
+	6 Biomorphosis
+	6 Sealed Xenomorph
+	6 Titanic Lifeform
+	6 Roar of the Wurm
+	6 Monstrous Emergence
+	6 Bioconsumption
+	6 Explosive Growth
+	6 Twisted Weather
+	6 Biocolony
+	6 Natural Wonder
+	6 Rampant Growth
+	6 Landblighter
+	6 Terrain Trawler
+	15 Capture Probe
+	15 Investment Analyst
+	15 Relic Museum
+	15 Cosmos Harnesser
+	15 Go Derelict
+	15 Arkship Commanders
+	15 War Councilors
+	15 Hydroponics Unit
+	15 Incessant Protesters
+	15 Surprise!
+	15 Virtualize
+	15 Neutralization Probe
+	15 Anomalous Crystalloid
+	15 Conclave of the Relic
+	15 Cetana's Tempest
+	15 Pathway Mentor
+	15 Repair Bay
+	15 Driven Assimilator
+	15 Lost in the Dark
+	15 Automated Sentry
+	15 Enhanced Monitor
+	15 Future Flight
+	15 Monitoring Probe
+	15 Toxoid Commander
+	15 Bioweapon Bombardment
+	15 Entropic Recursion
+	15 Warpling
+	15 Cryogen Awakening
+	15 Marketplace Tourists
+	15 Long Gone
+	15 Prophecy of Power
+	15 Cetana's Faithful
+	15 Radiation Pulse
+	15 Scrapship Probe
+	15 Marauder Captain
+	15 Deep Core Mining
+	15 Space Amoeba
+	15 Planetary Bombarder
+	15 Militarist Impetus
+	15 Colossal Feud
+	15 Mechanized Marauder
+	15 Crystalloid Colony
+	15 Bridgelinked Commander
+	15 Psionic Conclave
+	15 Lifeseeding Probe
+	15 Xenocompatibility
+	15 Baol Specimen
+	15 Upon Ancient Ground
+	15 Prosperous Unification
+	15 Bioprobes
+	15 Biological Archive
+	15 Toxoid Trader
+	15 Ruins Trawler
+	15 Herd Marshaller
+	15 Idyll Guardian
+	7 Synthetic Ascension
+	7 Planetary Seal
+	7 VIR, Structural Engine
+	7 Solar Flare
+	7 Cetana's Command
+	7 The Khan's Throne
+	7 Astral Wanderer
+	7 Quantum Catapult
+	7 Multi-Dimensional Analysis
+	7 Foreign Asset
+	7 Hivemind Ascension
+	7 Augmented One
+	7 VIR, Research Engine
+	7 Augmented Engineer
+	7 Deepspace Citadel
+	7 Psionic Ascension
+	7 Zroni Precursor
+	7 Hunted Specimen
+	7 Shroud's Bargain
+	7 The Megamall
+	7 Stellar Devourer
+	7 Arc Furnace
+	7 Thermal Ascension
+	7 Pirate Galleon
+	7 Bioengineered Pup
+	7 Biogenetic Behemoth
+	7 Twisted Moon
+	7 VIR, Expansion Engine
+	7 Biological Ascension
+	7 Colony Ship
+	7 Voidworm Larva
+	7 Evolving Lineage
+	7 First Contact Protocol
+	7 Sights Unseen
+	7 Hyperlane Charter
+	4 Trophies of Glory
+	4 Utter Annihilation
+	4 Synaptic Lathe
+	4 Readied L-Gate
+	4 The End of the Cycle
+	4 Stellar Collapse
+	4 Shroud Breacher
+	4 Leviathan's Arrival
+	4 Perfected Vatsoldier
+	4 Voidworm Troika
+	15 Cybernetic Creeds
+	15 Deputy Coordinator
+	15 Overtuned
+	15 Here Be Dragons
+	15 Cadre of Diplomats
+	15 Necromancer Cadre
+	15 Psionic Troopers
+	15 Scrapyard Venture
+	15 Twinned Virtualist
+	15 Bioprobe Troop Carrier
+	15 Machine Decree
+	15 Imperial Machinations
+	15 Price of War
+	15 Bioship Probes
+	15 Nomad Arkship
+	15 MSI Uplift Ambassador
+	15 Research Station
+	15 Spawning Structure
+	15 Stormchaser Cadre
+	15 Federation Bureaucrats
+	7 Ecumenopolis
+	7 Kai-Sha, Shadow Broker
+	7 Ouw'ron, Endbringer
+	7 Reth, Hell's Heart
+	7 Unit Solace
+	7 The Nameless Apostle
+	7 Borin, Brilliant Shipwright
+	7 Th'aal Hask'Guron
+	7 Skrand Sharpbeak
+	7 Astrocreator Azaryn
+	6 Planetary Datacenter
+	6 Starbase
+	6 Star Chart
+	6 Exploration Synth
+	6 Labor Synth
+	15 Caravaneer Relinquary
+	15 Advisor Synth
+	15 Research Drone
+	15 Uplift Monument
+	15 Agriculture Drone
+	7 Cryptic Monolith
+	7 Galactic Chart
+	7 Psionic Suppressor
+	7 Fusion Reactor
+	7 Hyperrelay
+	6 Terramorphic Expanse
+	15 Buried Ruin
+	15 Consolidated Resource
+	15 Deserted Remains
+	15 Gaian Idyll
+	7 Astral Rift
+	7 Arkship Paradise
+	7 Advanced Metropolis
+	7 Storm Formation Zone
+	7 Dusty Digsite
+	7 Monitored Habitation Complex
+	4 Cetana, Synthetic Queen
+	4 The Aetherophasic Engine
+	4 The Infinity Machine
+	4 Captain Ness' Treasure
+	4 Mindwarden Elder
+	7 Keides, Scion of Vagros
+	7 The Vagrosian Ruins
